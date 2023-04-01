@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>WordPress ZoomSounds DZS Preview Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' type="text/css" href="../style/style.css"/>
+    <script src="../libs/jquery/jquery.js" type="text/javascript"></script>
+
+    <link rel='stylesheet' type="text/css" href="../libs/dzstooltip/dzstooltip.css"/>
+    <link rel='stylesheet' type="text/css" href="../audioplayer/audioplayer.css"/>
+    <script src="../audioplayer/audioplayer.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="mwrap-wrapper">
+
+
+
+    <section class="mcon-mainmenu" style="position: absolute; z-index: 5;">
+
+        <!--
+        -->
+        <div class="container">
+            <div class="row">
+                <div class="logo-con col-md-3">
+                    <img src="../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+                </div>
+                <div class="main-menu-con">
+                    <ul class="main-menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class=""><a href="skins.html">Skins</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===end mainmenu
+    -->
+
+
+    <section class="mcon-otherdemos shadow-top">
+        <div class="container" style="padding-top: 100px;">
+            <div class="row">
+                <div class="col-md-12 border-box" style="padding:0 30px;">
+                    <h2 class="hero-heading">The audio player you have been waiting for.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="mcon-otherdemos">
+        <!--
+        <div class="pat-bg">
+            <div class="pat-bg-inner">
+
+            </div>
+        </div>
+        -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Choose a demo.</h2>
+                    <div class="separator-short m20"><figure class="the-graphic"></figure></div>
+                    <svg class="svg-icon" version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="11px" viewBox="0 0 13.415 16.333" enable-background="new 0 0 13.415 16.333" xml:space="preserve"> <path fill="#D2D6DB" d="M4.868,14.59c0,0.549-0.591,0.997-1.322,0.997H2.2c-0.731,0-1.322-0.448-1.322-0.997V1.618 c0-0.55,0.592-0.997,1.322-0.997h1.346c0.731,0,1.322,0.447,1.322,0.997V14.59z"/> <path fill="#D2D6DB" d="M12.118,14.59c0,0.549-0.593,0.997-1.324,0.997H9.448c-0.729,0-1.322-0.448-1.322-0.997V1.619 c0-0.55,0.593-0.997,1.322-0.997h1.346c0.731,0,1.324,0.447,1.324,0.997V14.59z"/> </svg>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-md-12">
+
+
+                    <style>
+                        .audioplayer.skin-wave{
+                            font-family: "PT Sans", arial, serif;
+                        }
+                    </style>
+                    <!--button-aspect-noir&#45;&#45;filled-->
+                    <div id="firstplayer" class="audioplayer-tobe auto-init button-aspect-noir disable-volume " style="width:100%; margin-top:10px; margin-bottom: 10px;" data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="audio" data-source="../sounds/adg3.mp3" data-playerid="3" data-fakeplayer="#ap1" data-sourceogg="../sounds/itsabeautifulday.ogg" data-options='{
+disable_volume: "off"
+,autoplay: "off"
+,cue: "on"
+,disable_scrub: "default"
+,design_skin: "skin-wave"
+,skinwave_wave_mode: "canvas"
+,pcm_data_try_to_generate: "on"
+,pcm_data_try_to_generate_wait_for_real_pcm: "on"
+,settings_php_handler: "../inc/php/publisher.php"
+,skinwave_dynamicwaves:"on"
+,skinwave_enableSpectrum: "off"
+,settings_backup_type:"full"
+,settings_useflashplayer:"auto"
+,skinwave_spectrummultiplier: "4"
+,skinwave_comments_enable:"on"
+,skinwave_comments_retrievefromajax:"on"
+,player_navigation:"on"
+,mobile_disable_fakeplayer:"on"
+,skinwave_mode: "alternate"
+,skinwave_wave_mode_canvas_waves_number: "3"
+,design_color_highlight: "db4343"
+,action_audio_play: action_audio_play_func
+}' data-sample_time_start="20" data-sample_time_end="77" data-sample_time_total="120">
+                        <!--    -->
+                        <!--  data-sourceogg="sounds/adg3.ogg"  -->
+                        <div class="the-comments">
+                        </div>
+                        <div class="meta-artist"><span class="the-artist">Tim 1</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beautiful day</a></span>
+                        </div>
+                        <div class="feed-dzsap feed-dzsap-before-playpause">
+                            <!--<div class="extra-dzsap-button">-->
+                            <!--<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"-->
+	 <!--width="15px" height="15px" viewBox="0 0 12.5 12.817" enable-background="new 0 0 12.5 12.817" xml:space="preserve">-->
+<!--<g>-->
+	<!--<g>-->
+		<!--<g>-->
+			<!--<path fill="#444" d="M2.581,7.375c-0.744-0.462-1.413-0.94-1.486-1.061C1.021,6.194,1.867,5.586,2.632,5.158l2.35-1.313-->
+				<!--c0.765-0.427,1.505-0.782,1.646-0.789s0.257,1.03,0.257,1.905V7.87c0,0.876-0.051,1.692-0.112,1.817-->
+				<!--C6.711,9.81,5.776,9.361,5.032,8.898L2.581,7.375z"/>-->
+		<!--</g>-->
+	<!--</g>-->
+<!--</g>-->
+<!--<g>-->
+	<!--<g>-->
+		<!--<g>-->
+			<!--<path fill="#444" d="M6.307,7.57C5.413,7.014,4.61,6.441,4.521,6.295C4.432,6.15,5.447,5.42,6.366,4.906l2.82-1.577-->
+				<!--c0.919-0.513,1.809-0.939,1.979-0.947s0.309,1.236,0.309,2.288v3.493c0,1.053-0.061,2.033-0.135,2.182S10.144,9.955,9.25,9.4-->
+				<!--L6.307,7.57z"/>-->
+		<!--</g>-->
+	<!--</g>-->
+<!--</g>-->
+<!--</svg>-->
+                        <!--</div>-->
+
+                        </div>
+                        <div class="feed-dzsap feed-dzsap-after-playpause">
+                            <!--<div class="extra-dzsap-button">-->
+                                <!--<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"-->
+	 <!--width="15px" height="15px" viewBox="0 0 12.5 12.817" enable-background="new 0 0 12.5 12.817" xml:space="preserve">-->
+<!--<g>-->
+	<!--<g>-->
+		<!--<g>-->
+			<!--<path fill="#444" d="M9.874,5.443c0.744,0.462,1.414,0.939,1.486,1.06c0.074,0.121-0.771,0.729-1.535,1.156L7.482,8.967-->
+				<!--C6.719,9.394,5.978,9.75,5.837,9.756C5.696,9.761,5.581,8.726,5.581,7.851V4.952c0-0.875,0.05-1.693,0.112-1.816-->
+				<!--c0.062-0.124,0.995,0.326,1.739,0.788L9.874,5.443z"/>-->
+		<!--</g>-->
+	<!--</g>-->
+<!--</g>-->
+<!--<g>-->
+	<!--<g>-->
+		<!--<g>-->
+			<!--<path fill="#444" d="M6.155,5.248c0.893,0.556,1.696,1.129,1.786,1.274c0.088,0.145-0.928,0.875-1.847,1.389l-2.811,1.57-->
+				<!--c-0.918,0.514-1.808,0.939-1.978,0.947c-0.169,0.008-0.308-1.234-0.308-2.287V4.66c0-1.052,0.061-2.034,0.135-2.182-->
+				<!--s1.195,0.391,2.089,0.947L6.155,5.248z"/>-->
+		<!--</g>-->
+	<!--</g>-->
+<!--</g>-->
+<!--</svg>-->
+
+
+                            <!--</div>-->
+
+
+
+                            <!--<div class="extra-dzsap-button dzsap-repeat-button">-->
+                                <!--<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"-->
+	 <!--width="15px" height="12px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">-->
+<!--<path fill="#444444" stroke="#444444" stroke-width="0.9104" stroke-miterlimit="10" d="M7.605,12.653-->
+	<!--c-2.736,0-4.962-2.227-4.962-4.962c0-2.737,2.226-4.962,4.962-4.962c1.009,0,1.948,0.303,2.733,0.825L8.617,5.365l4.927,0.015-->
+	<!--L12.828,0.51L11.66,2.24c-1.133-0.847-2.535-1.351-4.055-1.351c-3.75,0-6.802,3.051-6.802,6.802c0,3.748,3.052,6.799,6.802,6.799-->
+	<!--c3.173,0,5.846-2.186,6.592-5.129l-1.782-0.452C11.87,11.057,9.921,12.653,7.605,12.653"/>-->
+<!--</svg>-->
+
+
+                            <!--</div>-->
+
+                            <div class="extra-dzsap-button dzsap-loop-button">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="12px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<path fill="#444444" stroke="#444444" stroke-width="0.9104" stroke-miterlimit="10" d="M7.605,12.653
+	c-2.736,0-4.962-2.227-4.962-4.962c0-2.737,2.226-4.962,4.962-4.962c1.009,0,1.948,0.303,2.733,0.825L8.617,5.365l4.927,0.015
+	L12.828,0.51L11.66,2.24c-1.133-0.847-2.535-1.351-4.055-1.351c-3.75,0-6.802,3.051-6.802,6.802c0,3.748,3.052,6.799,6.802,6.799
+	c3.173,0,5.846-2.186,6.592-5.129l-1.782-0.452C11.87,11.057,9.921,12.653,7.605,12.653"/>
+</svg>
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <script>
+                        var flip = true,
+                            pause = "M11,10 L18,13.74 18,22.28 11,26 M18,13.74 L26,18 26,18 18,22.28",
+                            play = "M11,10 L17,10 17,26 11,26 M20,10 L26,10 26,26 20,26",
+                            $animation = $('#animation');
+
+                    jQuery(".ceva").on('click', function() {
+                        flip = !flip;
+                        $animation.attr({
+                            "from": flip ? pause : play,
+                            "to": flip ? play : pause
+                        }).get(0).beginElement();
+                    });
+                    </script>
+
+
+                    <!--data-playerid="hmmdada"-->
+
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div id="player3" class="audioplayer-tobe " style="width:100%; margin-top:10px; margin-bottom: 10px;" data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="audio" data-source="../sounds/steph1.mp3" data-fakeplayer="#ap1" data-sourceogg="../sounds/itsabeautifulday.ogg" data-options='' >
+
+                        <!--    data-sample_time_start="30" data-sample_time_end="115" data-sample_time_total="180"     -->
+
+                        <!--  data-sourceogg="sounds/adg3.ogg"  -->
+                        <div class="the-comments">
+                        </div>
+                        <div class="meta-artist"><span class="the-artist">Tim 3</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beau</a></span>
+                        </div>
+                    </div>
+
+
+
+                    <script>
+                        var settings3 = {
+                            disable_volume: "off"
+                            ,autoplay: "off"
+                            ,cue: "on"
+                            ,disable_scrub: "default"
+                            ,design_skin: "skin-wave"
+                            ,skinwave_dynamicwaves:"on"
+                            ,settings_useflashplayer:"auto"
+                            ,skinwave_spectrummultiplier: "4"
+                            ,skinwave_comments_enable:"on"
+                            ,skinwave_mode: "small"
+
+                            ,soundcloud_apikey: "be48604d903aebd628b5bac968ffd14d"
+                            ,skinwave_comments_retrievefromajax:"on"
+                            ,settings_php_handler:"../inc/php/publisher.php"
+                            ,pcm_data_try_to_generate: "on"
+                            ,pcm_data_try_to_generate_wait_for_real_pcm: "on"
+                        };
+                        jQuery(document).ready(function($){
+//                            console.info($("#player3"));
+//                            $("#player3").audioplayer(settings3);
+                        })
+                    </script>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div id="apsc" data-type="soundcloud" class="audioplayer-tobe skin-wave auto-init2 " data-source="https://soundcloud.com/noriddim2/heathens-rmx"  data-fakeplayer="#ap1" data-options="{
+            disable_volume: 'off'
+,action_audio_play: action_audio_play_func
+            ,disable_scrub: 'default'
+            ,design_skin: 'skin-wave'
+            ,skinwave_dynamicwaves:'off'
+            ,skinwave_enableSpectrum:'off'
+            ,settings_backup_type:'full'
+            ,skinwave_enableReflect:'on'
+            ,skinwave_comments_enable:'on'
+            ,skinwave_timer_static:'off'
+            ,disable_player_navigation: 'off'
+,pcm_data_try_to_generate_wait_for_real_pcm: 'on'
+            ,skinwave_mode: 'normal'
+            ,preload_method: 'metadata'
+            ,default_volume:'last'
+                    ,skinwave_comments_retrievefromajax:'on'
+                    ,settings_php_handler:'../inc/php/publisher.php'
+                    ,skinwave_wave_mode: 'canvas'
+                    ,skinwave_wave_mode_canvas_waves_number: 3
+                    ,skinwave_wave_mode_canvas_waves_padding: 1
+                    , design_color_bg: 'aaaaaa,000000' // --waveform background color..  000000,ffffff gradient is allowed
+                    , design_color_highlight: 'ea8c52,000000' // -- waveform progress color
+
+                    ,soundcloud_apikey:'be48604d903aebd628b5bac968ffd14d'
+
+                    }">
+
+                        <div class="meta-artist"><span class="the-artist">SoundCloud Link</span><span class="the-name">Revenge</span></div>
+                        <div class="menu-description">
+                            <div class="menu-item-thumb-con"><div class="menu-item-thumb" style="background-image: url(../img/adg3.jpg)"></div></div>
+                            <!--<div class="file-icon download-button download-after-rate" style="display: inline-block"><a href="https://soundcloud.com/dubstep/stardust-by-james-egbert-schoolboy-ft-taylr-renee"><span class="header-clip"><span class="header-triangle"></span></span><span class="header-bg"></span><div class="clear"></div><div class="file-icon-inner"><i class="icon-download"></i>&nbsp;&nbsp;&nbsp;.mp3</div></a></div>-->
+                            <!--<div class="file-icon download-button download-after-rate" style="display: inline-block"><a href="https://soundcloud.com/dubstep/stardust-by-james-egbert-schoolboy-ft-taylr-renee"><span class="header-clip"><span class="header-triangle"></span></span><span class="header-bg"></span><div class="clear"></div><div class="file-icon-inner"><i class="icon-download"></i>&nbsp;&nbsp;&nbsp;.wav</div></a></div>-->
+                            <span class="the-artist">Mick Jagger</span>
+                            <span class="the-name">Revenge</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="hmmdada"  class="audioplayer-tobe auto-init2 alternate-layout button-aspect-noir  disable-volume" style="width:100%; margin-top:10px; margin-bottom: 10px;" data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="audio" data-source="../sounds/itsabeautifulday.mp3" data-fakeplayer="#ap12"  data-options='{
+disable_volume: "off"
+,autoplay: "off"
+,cue: "on"
+,skinwave_comments_enable:"on"
+,skinwave_comments_retrievefromajax:"on"
+,disable_scrub: "default"
+,design_skin: "skin-wave"
+,skinwave_wave_mode: "canvas"
+,skinwave_wave_mode_canvas_waves_number: "3"
+,pcm_data_try_to_generate: "on"
+,pcm_data_try_to_generate_wait_for_real_pcm: "on"
+,settings_php_handler: "../inc/php/publisher.php"
+,skinwave_dynamicwaves:"on"
+,skinwave_enableSpectrum: "off"
+,settings_backup_type:"full"
+,settings_useflashplayer:"auto"
+,skinwave_spectrummultiplier: "4"
+,action_audio_play: action_audio_play_func
+}'>
+                        <!--  data-sourceogg="sounds/adg3.ogg"  -->
+                        <div class="the-comments">
+                        </div>
+                        <div class="meta-artist"><span class="the-artist">Tim 2</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beautiful day</a></span>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!--<div class="audioplayer-tobe auto-init" style="width:100%; margin-top:10px; margin-bottom: 10px;" data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="audio" data-source="../sounds/itsabeautifulday.mp3" data-fakeplayer="#ap1" data-sourceogg="../sounds/itsabeautifulday.ogg" data-options='{-->
+<!--disable_volume: "off"-->
+<!--,autoplay: "off"-->
+<!--,cue: "on"-->
+<!--,disable_scrub: "default"-->
+<!--,design_skin: "skin-wave"-->
+<!--,skinwave_dynamicwaves:"on"-->
+<!--,skinwave_enableSpectrum: "off"-->
+<!--,settings_backup_type:"full"-->
+<!--,settings_useflashplayer:"auto"-->
+<!--,skinwave_spectrummultiplier: "4"-->
+<!--,skinwave_comments_enable:"off"-->
+<!--,skinwave_mode: "small"-->
+<!--,sample_time_total: "50"-->
+<!--}'>-->
+
+                        <!--&lt;!&ndash;  data-sourceogg="sounds/adg3.ogg"  &ndash;&gt;-->
+                        <!--<div class="the-comments">-->
+                        <!--</div>-->
+                        <!--<div class="meta-artist"><span class="the-artist">Tim 3</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beau</a></span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="audioplayer-tobe auto-init" style="width:100%; margin-top:10px; margin-bottom: 10px;" data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="soundcloud" data-source="https://soundcloud.com/morethanrecs/sia-cheap-thrills-damned-x-jakoban-remix" data-fakeplayer="#ap1" data-sourceogg="../sounds/itsabeautifulday.ogg" data-options='{-->
+<!--disable_volume: "off"-->
+<!--,autoplay: "off"-->
+<!--,cue: "on"-->
+<!--,disable_scrub: "default"-->
+<!--,design_skin: "skin-wave"-->
+<!--,skinwave_dynamicwaves:"on"-->
+<!--,skinwave_enableSpectrum: "off"-->
+<!--,settings_backup_type:"full"-->
+<!--,settings_useflashplayer:"auto"-->
+<!--,skinwave_spectrummultiplier: "4"-->
+<!--,skinwave_comments_enable:"off"-->
+<!--,skinwave_mode: "small"-->
+<!--,soundcloud_apikey: "be48604d903aebd628b5bac968ffd14d"-->
+<!--,sample_time_total: "50"-->
+<!--}'>-->
+
+                        <!--&lt;!&ndash;  data-sourceogg="sounds/adg3.ogg"  &ndash;&gt;-->
+                        <!--<div class="the-comments">-->
+                        <!--</div>-->
+                        <!--<div class="meta-artist"><span class="the-artist">Tim 3</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beau</a></span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+
+<section class="mcon-otherdemos">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 border-box" style="padding: 0px 60px 20px; "></div>
+            <div class="col-md-6">
+                <h2>Multiple Skins</h2>
+                <div class="separator-short m20"><figure class="the-graphic"></figure></div>
+                <p>It takes just 3 minutes to install, activate and setup your first pricing table like the one above. It's all possible because of a smart WYSIWYG shortcode generator and premade examples so you can customize from there to your needs.</p>
+                <p><div class="audioplayer-song-changer" data-target="#ap1" href="#" style="" data-thumb="../img/adg3.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-type="normal" data-source="../sounds/adg3.mp3" data-sourceogg="../sounds/itsabeautifulday.ogg">change song
+                    <span class="meta-artist"><span class="the-artist">Adrien Gardiner</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">Eco the Boost</a></span>
+                </span>
+                </div>
+                </p>
+                <br>
+                <p><a href="skins.html" class="dzs-button skin-emerald">Check out skins!</a></p>
+                <br/>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+    <section class="mcon-otherdemos-alt" style="padding-bottom: 0;">
+        <div class="container">
+            <div class="row" style="margin-bottom: 0;">
+                <div class="col-md-6">
+                    <h2>Responsive</h2>
+                    <div class="separator-short m20"><figure class="the-graphic"></figure></div>
+                    <p>Mobile ready! Retina ready! Tested on iOS and Android 4.0+. Responsive from mobile to HD due to CSS 3 Media Queries. Retina ready due to use of font icons and no images. Scales to any dimension!</p>
+                </div>
+                <div class="col-md-6 border-box" style="padding: 0px 60px 0px; ">
+                    <!--<img class="fullwidth " src="img/feat2.png"/>-->
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="mcon-features">
+
+        <div class="pat-bg">
+            <div class="pat-bg-inner">
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="bigfeature"><i class="icon-thumbs-up"></i></div>
+                    <h4>Easy Install</h4>
+                    <p style="text-align: center">Install WordPress Pricing Tables in just a couple of minutes. <a href="http://digitalzoomstudio.net/docs/wppricingtables/" target="_blank">Docs</a> are also there.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="bigfeature"><i class="icon-desktop"></i></div>
+                    <h4>Responsive</h4>
+                    <p style="text-align: center">From mobile to HD, pricing tables are ultra responsive. Also has retina graphics.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="bigfeature"><i class="icon-pencil"></i></div>
+                    <h4>Customizable</h4>
+                    <p style="text-align: center">Customize Pricing Tables with the awesome Builder included.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="bigfeature"><i class="icon-briefcase"></i></div>
+                    <h4>SEO Friendly</h4>
+                    <p style="text-align: center">Built with SEO in mind, Pricing Tables parses html content into working magic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mcon-footer">
+        <div class="container">
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; copyright <a href="">ZoomIt</a> 2013
+
+                </div>
+                <div class="col-md-6" style="text-align: right">
+                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdigitalzoomstudio&amp;width=150&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=false&amp;appId=569360426428348" scrolling="no" frameborder="0" style="border:1px solid #ffffff; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+    <style>
+        .audioplayer.skin-wave-mode-small .audioplayer-inner{
+
+
+        }
+        .audioplayer.skin-wave.scrubbar-loaded .ap-controls .scrubbar{
+
+
+        }
+        .audioplayer.skin-wave-mode-small .ap-controls .ap-controls-right > .meta-artist-con + .the-thumb-con{
+        }
+        body .dzsap-sticktobottom.dzsap-sticktobottom-for-skin-wave{
+        }
+
+
+
+
+        /*body .audioplayer .curr-time:not(.a){*/
+            /*transition-duration: 0.5s;*/
+            /*transition-property: opacity, left;*/
+            /*transition-timing-function: linear;*/
+        /*}*/
+        /*body .audioplayer .scrubbar .scrub-prog:not(.a){*/
+            /*transition-duration: 0.5s;*/
+            /*transition-property: width;*/
+            /*transition-timing-function: linear;*/
+        /*}*/
+    </style>
+<div class="dzsap-sticktobottom-placeholder "></div>
+<section class="dzsap-sticktobottom ">
+    <div class="container" style="max-width: 1170px; margin: 0 auto;">
+    <div id="ap1" class="audioplayer-tobe button-aspect-noir skin-wave skinvariation-wave-grey skin-wave-mode-small " style="width:100%; " data-thumb="../img/thumbs2.jpg" data-thumb_link="img/thumb.jpg" data-bgimage="img/bg.jpg"    data-type="fake" data-source="fake"  >
+        <!--  data-sourceogg="sounds/adg3.ogg"  -->
+        <div class="the-comments">
+        </div>
+        <div class="meta-artist"><span class="the-artist">Tim McMorris</span><span class="the-name"><a href="http://codecanyon.net/item/zoomsounds-wordpress-audio-player/6181433?ref=ZoomIt" target="_blank">It's a beautiful day</a></span>
+        </div>
+
+        <!--
+
+
+
+
+         data-type="fake" data-source="fake"
+
+
+
+
+
+
+
+        <div class="feed-dzsap feed-dzsap-before-playpause">
+            <div  style="cursor:pointer;" class="extra-dzsap-button" onclick="alert('ceva');">
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="15px" viewBox="0 0 12.5 12.817" enable-background="new 0 0 12.5 12.817" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#444" d="M2.581,7.375c-0.744-0.462-1.413-0.94-1.486-1.061C1.021,6.194,1.867,5.586,2.632,5.158l2.35-1.313
+				c0.765-0.427,1.505-0.782,1.646-0.789s0.257,1.03,0.257,1.905V7.87c0,0.876-0.051,1.692-0.112,1.817
+				C6.711,9.81,5.776,9.361,5.032,8.898L2.581,7.375z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<path fill="#444" d="M6.307,7.57C5.413,7.014,4.61,6.441,4.521,6.295C4.432,6.15,5.447,5.42,6.366,4.906l2.82-1.577
+				c0.919-0.513,1.809-0.939,1.979-0.947s0.309,1.236,0.309,2.288v3.493c0,1.053-0.061,2.033-0.135,2.182S10.144,9.955,9.25,9.4
+				L6.307,7.57z"/>
+		</g>
+	</g>
+</g>
+</svg>
+            </div>
+
+        </div>
+
+
+        -->
+
+
+
+
+
+            <!--<div class="extra-dzsap-button dzsap-repeat-button">-->
+                <!--<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"-->
+	 <!--width="15px" height="12px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">-->
+<!--<path fill="#444444" stroke="#444444" stroke-width="0.9104" stroke-miterlimit="10" d="M7.605,12.653-->
+	<!--c-2.736,0-4.962-2.227-4.962-4.962c0-2.737,2.226-4.962,4.962-4.962c1.009,0,1.948,0.303,2.733,0.825L8.617,5.365l4.927,0.015-->
+	<!--L12.828,0.51L11.66,2.24c-1.133-0.847-2.535-1.351-4.055-1.351c-3.75,0-6.802,3.051-6.802,6.802c0,3.748,3.052,6.799,6.802,6.799-->
+	<!--c3.173,0,5.846-2.186,6.592-5.129l-1.782-0.452C11.87,11.057,9.921,12.653,7.605,12.653"/>-->
+<!--</svg>-->
+
+            <!--
+
+
+
+
+        <div class="feed-dzsap feed-dzsap-after-playpause">
+            <div style="cursor:pointer;" class="extra-dzsap-button">
+                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="15px" viewBox="0 0 12.5 12.817" enable-background="new 0 0 12.5 12.817" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#444" d="M9.874,5.443c0.744,0.462,1.414,0.939,1.486,1.06c0.074,0.121-0.771,0.729-1.535,1.156L7.482,8.967
+				C6.719,9.394,5.978,9.75,5.837,9.756C5.696,9.761,5.581,8.726,5.581,7.851V4.952c0-0.875,0.05-1.693,0.112-1.816
+				c0.062-0.124,0.995,0.326,1.739,0.788L9.874,5.443z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<path fill="#444" d="M6.155,5.248c0.893,0.556,1.696,1.129,1.786,1.274c0.088,0.145-0.928,0.875-1.847,1.389l-2.811,1.57
+				c-0.918,0.514-1.808,0.939-1.978,0.947c-0.169,0.008-0.308-1.234-0.308-2.287V4.66c0-1.052,0.061-2.034,0.135-2.182
+				s1.195,0.391,2.089,0.947L6.155,5.248z"/>
+		</g>
+	</g>
+</g>
+</svg>
+
+
+            </div>
+
+
+            <div class="extra-dzsap-button dzsap-loop-button">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="15px" height="12px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<path fill="#444444" stroke="#444444" stroke-width="0.9104" stroke-miterlimit="10" d="M7.605,12.653
+	c-2.736,0-4.962-2.227-4.962-4.962c0-2.737,2.226-4.962,4.962-4.962c1.009,0,1.948,0.303,2.733,0.825L8.617,5.365l4.927,0.015
+	L12.828,0.51L11.66,2.24c-1.133-0.847-2.535-1.351-4.055-1.351c-3.75,0-6.802,3.051-6.802,6.802c0,3.748,3.052,6.799,6.802,6.799
+	c3.173,0,5.846-2.186,6.592-5.129l-1.782-0.452C11.87,11.057,9.921,12.653,7.605,12.653"/>
+</svg>
+
+
+            </div>
+        </div>
+
+
+
+            -->
+
+
+
+
+
+
+
+
+            <!--</div>-->
+
+    </div>
+    </div>
+</section>
+
+</div>
+
+here -
+<img  class="needs-loading " data-src="../img/track1.jpg" style="width:100%;" alt="display modes"/>
+
+
+<script>
+
+    function action_audio_play_func(arg){
+//        console.info("action_audio_play_func", arg);
+
+//        setTimeout(function(){
+//            console.info("playmedia()", arg);
+//           arg.get(0).api_play_media({
+//               'api_report_play_media' : false
+//           });
+//        },2000);
+    }
+    function action_audio_change_media(arg, margs){
+
+        console.info("CHANGE MEDIA OUTER", arg,margs);
+    }
+    jQuery(document).ready(function ($) {
+
+        var settings_ap = {
+            disable_volume: 'off'
+            ,autoplay: 'on'
+            ,cue: 'on'
+            ,disable_scrub: 'default'
+            ,design_skin: 'skin-wave'
+            ,skinwave_dynamicwaves:'on'
+            ,skinwave_enableSpectrum: "off"
+            ,settings_backup_type:'full'
+            ,settings_useflashplayer:'auto'
+            ,skinwave_spectrummultiplier: '4'
+            ,skinwave_comments_enable:'off'
+            ,skinwave_mode: ''
+            ,skinwave_wave_mode: "canvas"
+            ,pcm_data_try_to_generate: "on"
+            ,skinwave_wave_mode_canvas_waves_number: "3"
+            ,settings_php_handler: "../inc/php/publisher.php"
+            ,mobile_delete: "on"
+            ,skinwave_wave_mode_canvas_mode: "reflecto"
+            ,settings_extrahtml_in_float_right: '<div class="has-player-full-height"><a href="http://localhost:8888/wordpress/product/grouped-zoomsounds/" class="add-to-cart-btn-just-icon just-icon-icon" type="submit"><i class="fa fa-shopping-cart fa"></i></a><a href="#" class=" just-icon-icon" type="submit"><i class="fa fa-share-alt dzswtl-multisharer-but" data-url="http://localhost:8888/wordpress/product/grouped-zoomsounds/"></i></a><a href="http://localhost:8888/wordpress?action=dzsap_download&amp;id=4467" class=" just-icon-icon" type="submit"><i class="fa fa-download"></i></a></div>'
+            ,action_audio_change_media: action_audio_change_media
+        };
+        dzsap_init('#ap1',settings_ap);
+
+        dzs_check_lazyloading_images();
+    });
+</script>
+<link rel="stylesheet" href="../libs/fontawesome/font-awesome.min.css">
+<script type="text/javascript" src="../js/main.js"></script>
+<link rel="stylesheet" href="../libs/zoombox/zoombox.css">
+<script type="text/javascript" src="../libs/zoombox/zoombox.js"></script>
+</body>
+</html>

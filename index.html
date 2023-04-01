@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
     <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
     <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <script src="audio/audioplayer/audioplayer.js" type="text/javascript"></script>
+    <link rel='stylesheet' type="text/css" href="audio/audioplayer/audioplayer.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -180,20 +182,57 @@
                                             </div>
                                             <div class="tab-pane fade" id="rn-awards" role="tabpanel" aria-labelledby="awards">
                                                 <div class="single-tab-content">
-                                                    <ul>
-                                                        <li><a href="service.html">Awwwards.com <span>-
-                                                                    Winner</span></a> 2019 -
-                                                            2020
-                                                        </li>
-                                                        <li><a href="service.html">CSS Design Awards <span>-
-                                                                    Winner</span></a> 2017
-                                                            -
-                                                            2018</li>
-                                                        <li><a href="service.html">Design nominees <span>- site of
-                                                                    the
-                                                                    day</span></a>
-                                                            2013- 2014</li>
-                                                    </ul>
+                                                    <div id="ag1" class="audiogallery skin-wave auto-init" style="opacity:0; margin-top: 70px;"
+                                                      data-options='{
+                                                      "cueFirstMedia": "on",
+                                                      "autoplay": "off",
+                                                      "autoplayNext": "on",
+                                                      "design_menu_position": "bottom",
+                                                      "enable_easing": "on",
+                                                      "playlistTransition": "fade",
+                                                      "design_menu_height": "200"
+                                                      }'
+                                                      ><!-- options for playlist in data-options -->
+                                                      <div class="items">
+                                                        <div class="audioplayer-tobe  skin-wave button-aspect-noir" data-thumb="img/e3.jpg"
+                                                        data-type="audio"
+                                                        data-source="./sounds/steph1.mp3"
+
+                                                        data-options='{
+                                                        "settings_php_handler": "inc/php/publisher.php",
+                                                        "skinwave_comments_enable": "on",
+                                                        "skinwave_comments_retrievefromajax": "on",
+                                                        "pcm_data_try_to_generate": "on",
+                                                        "pcm_data_try_to_generate_wait_for_real_pcm": "on",
+                                                        "skinwave_wave_mode_canvas_waves_number": 1,
+                                                        "skinwave_wave_mode_canvas_waves_padding": 0,
+                                                        "skinwave_wave_mode_canvas_reflection_size": 0.25,
+                                                        "design_color_bg": "444444",
+                                                        "design_color_highlight": "aa4444"
+                                                        }'><!-- options for player in data-options -->
+                                                          <div class="feed-dzsap feed-artist">Artist 1</div>
+                                                          <div class="feed-dzsap feed-song-name">Song 1</div>
+                                                        </div>
+                                                      <div class="audioplayer-tobe  skin-wave" data-thumb="img/e2.jpg"
+                                                        data-type="audio"
+                                                        data-source="./sounds/adg3.mp3"  >
+                                                          <div class="feed-dzsap feed-artist">Artist 2</div>
+                                                          <div class="feed-dzsap feed-song-name">Song 2</div>
+                                                        </div>
+                                                      <div class="audioplayer-tobe  skin-wave" data-thumb="img/e2.jpg"
+                                                        data-type="audio"
+                                                        data-source="./sounds/adg3.mp3"  >
+                                                          <div class="feed-dzsap feed-artist">Artist 3</div>
+                                                          <div class="feed-dzsap feed-song-name">Song 3</div>
+                                                        </div>
+                                                      <div class="audioplayer-tobe  skin-wave" data-thumb="img/e2.jpg"
+                                                        data-type="audio"
+                                                        data-source="./sounds/adg3.mp3"  >
+                                                          <div class="feed-dzsap feed-artist">Artist 4</div>
+                                                          <div class="feed-dzsap feed-song-name">Song 4</div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="rn-experience" role="tabpanel" aria-labelledby="experience">

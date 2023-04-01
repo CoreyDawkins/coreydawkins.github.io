@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="../../style/style.css"/>
+  <script src="../../libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel='stylesheet' type="text/css" href="../../audioplayer/audioplayer.css"/>
+  <script src="../../audioplayer/audioplayer.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="content-wrapper">
+
+  <div class="con-mainmenu">
+
+    <!--
+    http://160.94.138.250:8128/
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="logo-con span3">
+          <img src="../../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+        </div>
+        <div class="main-menu-con span9">
+          <ul id="menu-main-menu" class="menu sf-menu" style="top: 9px;">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- not active -->
+
+<!--          data-source="http://songs.militaryhomelife.com:8000/christmas.mp3.xspf"-->
+
+          <div data-thumb="../../img/adg3.jpg" id="ap-icecast" data-type="audio" class="audioplayer-tobe skin-redlights theme-dark auto-init" data-source="https://statslive2.infomaniak.ch/playlist/vibrationbelgique/vibrationbelgique-high.aac/playlist.xspf" data-streamtype="icecast" data-options='{"autoplay": "off","settings_php_handler": "../../inc/php/publisher.php"}' >
+            <div class="meta-artist">
+              <span class="the-artist"></span><span class="the-name"></span>
+            </div>
+
+          </div>
+
+          <br>
+
+
+
+
+          <div data-thumb="../../img/adg3.jpg" id="ap-radio" data-type="audio" class="audioplayer-tobe skin-redlights theme-dark " data-source="http://masterv2.shoutcast.com:8000/stream/102843/"  data-streamtype="shoutcast"  >
+            <div class="meta-artist">
+              <span class="the-artist">&nbsp;&nbsp;</span><span class="the-name">&nbsp;&nbsp;</span>
+            </div>
+          </div>
+
+          <style>
+            #ap-radio .ap-controls .ap-controls-right .scrubbar{ display: none; }
+          </style>
+          <script>
+            jQuery(document).ready(function($){
+              // dzsap_init("#ap-icecast", {
+              //   autoplay: "off",
+              //   settings_php_handler: "../../inc/php/publisher.php",
+              // });
+              // dzsap_init("#ap-radio", {
+              //   autoplay: "off",
+              //   settings_php_handler: "../../inc/php/publisher.php",
+              // });
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--http://198.24.145.148:9550/;-->
+
+  <!--<iframe src="http://localhost/wordpress/?action=dzscfwp_show_playlist&the_shortcode=%5Bplaylist+ids%3D%22407%2C46%22+embedded%3D%22on%22%5D" style="overflow:hidden; transition: height 0.5s ease-out;" width="100%" height="300" scrolling="no" frameborder="0"></iframe>-->
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

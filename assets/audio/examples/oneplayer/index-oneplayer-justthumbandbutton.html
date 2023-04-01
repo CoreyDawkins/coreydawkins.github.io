@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Audio Players Preview</title>
+
+  <link rel='stylesheet' type="text/css" href="../../style/style.css"/>
+  <script src="../../libs/jquery/jquery.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="content-wrapper">
+
+  <section class="mcon-mainmenu" style="position: absolute; z-index: 5; width:100%;">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="logo-con span3">
+          <img src="../../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+        </div>
+        <div class="main-menu-con span9">
+          <ul id="menu-main-menu" class="menu sf-menu" style="top: 9px;">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="con-maindemo skin-justthumbandbutton" id="a-demo">
+    <div class="ap-wrapper center-ap" style="width:100%; background-color: #3a3a3a;">
+
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+
+          </div>
+
+          <div class="col-md-6">
+
+            <a href="#" onclick='document.getElementById("ap23").api_play_media(); return false; '>Play</a>
+            <a href="#" onclick='document.getElementById("ap23").api_pause_media(); return false; '>Pause</a>
+          </div>
+        </div>
+      </div>
+
+
+      <style>
+        body .audioplayer.skin-silver .ap-controls {
+
+          background-color: #ff0000;
+
+        }
+
+        body .audioplayer.skin-silver .ap-controls .ap-controls-right .meta-artist-con, body .audioplayer.skin-silver .ap-controls .ap-controls-right .total-time, body .audioplayer.skin-silver .ap-controls .curr-time {
+
+          color: #23adca;
+
+        }
+
+        body .audioplayer.skin-silver .ap-controls .scrubbar .scrub-bg {
+
+          background-color: #da2134;
+
+        }
+
+        body .audioplayer.skin-silver .ap-controls .ap-controls-left .con-playpause .playbtn path {
+
+          fill: #0000ff;
+
+        }
+
+        body .audioplayer.skin-aria .ap-controls .ap-controls-left .con-playpause .playbtn path, body .audioplayer.skin-aria .ap-controls .ap-controls-left .con-playpause .pausebtn path {
+
+          background-color: #00ff00;
+
+        }
+      </style>
+
+<!--      <audio src="../../sounds/adg3.mp3" width="320" class="zoomsounds-from-audio" id="rt_media_audio_7" controls="controls"   preload="none"></audio>-->
+
+      <div style="max-width: 300px;">
+
+        <div id="ap-justthumbandbutton" class="audioplayer-tobe skin-justthumbandbutton auto-init" style="" data-thumb="../../img/thumb2.jpg"   data-type="normal" data-options='{
+"scrubbar_type": "bar"}' data-source="../../sounds/adg3.mp3">
+        </div>
+      </div>
+
+
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" style="max-width: 900px;;">
+      <div class="row">
+
+        <div class="col-md-4"></div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <section class="mcon-features">
+    <div class="container">
+      <div class="row">
+        <div class="span3">
+
+
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div class="row">
+        <div class="span3">
+
+          <div class="bigfeature"><i class="icon-thumbs-up"></i></div>
+          <h4>Easy Install</h4>
+          <p style="text-align: center">Install ZoomSounds in just a couple of minutes. <a
+            href="http://digitalzoomstudio.net/docs/zoomsounds/" target="_blank">Docs</a> are also there.</p>
+        </div>
+        <div class="span3">
+          <div class="bigfeature"><i class="icon-desktop"></i></div>
+          <h4>Responsive</h4>
+          <p style="text-align: center">From mobile to HD, this gallery is ultra responsive. Also has retina
+            graphics.</p>
+        </div>
+        <div class="span3">
+          <div class="bigfeature"><i class="icon-pencil"></i></div>
+          <h4>Customizable</h4>
+          <p style="text-align: center">Customize ZoomSounds to your needs. The possibilities are endless.</p>
+        </div>
+        <div class="span3">
+          <div class="bigfeature"><i class="icon-briefcase"></i></div>
+          <h4>SEO Friendly</h4>
+          <p style="text-align: center">Built with SEO in mind, ZoomSounds parses html content into working magic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<link rel='stylesheet' type="text/css" href="../../audioplayer/audioplayer.css"/>
+<link rel='stylesheet' type="text/css" href="../../audioplayer/parts/player-skins/player-skin--skin-justthumbandbutton.css"/>
+<script src="../../audioplayer/audioplayer.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../libs/fontawesome/font-awesome.min.css">
+<link rel="stylesheet" href="../../libs/zoombox/zoombox.css">
+<script src="../../libs/zoombox/zoombox.js"></script>
+</body>
+</html>

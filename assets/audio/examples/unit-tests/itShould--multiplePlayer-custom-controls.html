@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <base href="../../">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <link href="./libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="./style/style.css"/>
+  <script src="./libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel='stylesheet' type="text/css" href="./audioplayer/audioplayer.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="content-wrapper">
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <h5>Invoke footer player</h5>
+          <br>
+
+          <div data-thumb="./img/adg3.jpg" data-type="audio"
+               class="audioplayer-tobe auto-init simple-ap-init skin-customcontrols button-aspect-noir   "
+
+               data-source="./sounds/adg3.mp3"
+               data-fakeplayer=".dzsap_footer" data-playfrom="0"
+               data-options='{"autoplay":"off"}'>
+            <div class="audioplayer-inner">
+
+              <div class="custom-play-btn">
+                <div class=" play-button-con" style="color: #cb1919; width: 25px; height: 25px;"><i class="fa fa-play" style="font-size: 12px;"></i>
+                </div>
+              </div>
+              <div class="custom-pause-btn">
+                <div class=" play-button-con " style="color: #cb1919; width: 25px; height: 25px;"><i class="fa fa-pause" style="font-size: 12px;"></i>
+                </div>
+              </div>
+            </div>
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+              href="#">Buy now!</a></span>
+            </div>
+
+          </div>
+
+
+          <br>
+          <br>
+          <br>
+
+
+          <br>
+          <br>
+          <br>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="dzsap-sticktobottom-placeholder dzsap-sticktobottom-placeholder-for-skin-wave"></div>
+<section class="dzsap-sticktobottom  dzsap-sticktobottom-for-skin-wave">
+  <div class="dzs-container">
+
+
+    <div
+      class="audioplayer-tobe playerid-34528259  is-single-player apconfig-footer-player button-aspect-noir button-aspect-noir--filled  skin-wave  dzsap_footer"
+      style=" width: 100%;" id="dzsap_footer" data-playerid="dzs_footer" data-sanitized_source="fake" data-type="fake"
+      data-source="fake" data-playfrom="off">
+      <div class="meta-artist track-meta-for-dzsap"><span class="the-artist first-line"></span><span
+        class="the-name the-songname second-line"></span></div>
+      <div class="menu-description"><span class="the-artist"> </span><span class="the-name"> </span></div>
+    </div>
+    <script>jQuery(document).ready(function ($) {
+      var settings_apFooter = {
+        design_skin: "skin-wave",
+        autoplay: "off",
+        disable_volume: "default",
+        loop: "off",
+        cue: "off",
+        embedded: "off",
+        preload_method: "metadata",
+        design_animateplaypause: "default",
+        skinwave_dynamicwaves: "off",
+        skinwave_enableSpectrum: "off",
+        skinwave_enableReflect: "on",
+        playfrom: "off",
+        default_volume: "default",
+        disable_scrub: "off",
+        skinwave_comments_enable: "off",
+        settings_php_handler: window.ajaxurl,
+        skinwave_mode: "small",
+        skinwave_wave_mode: "canvas",
+        pcm_data_try_to_generate: "on",
+        "pcm_notice": "off",
+        "notice_no_media": "on",
+        skinwave_wave_mode_canvas_waves_number: "3",
+        skinwave_wave_mode_canvas_waves_padding: "1",
+        skinwave_wave_mode_canvas_reflection_size: "0.25",
+        design_color_bg: "111111",
+        design_wave_color_progress: "ef6b13",
+        design_color_highlight: "ef6b13",
+        skinwave_wave_mode_canvas_mode: "normal",
+        preview_on_hover: "off",
+        skinwave_comments_playerid: "34528259"
+      };
+      try {
+        dzsap_init(".dzsap_footer", settings_apFooter);
+      } catch (err) {
+        console.warn("cannot init player", err);
+      }
+    });</script>
+  </div>
+</section>
+
+
+<script src="./audioplayer/audioplayer.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./libs/fontawesome/font-awesome.min.css">
+</body>
+</html>

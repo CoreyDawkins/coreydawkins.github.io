@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <base href="../../">
+  <link href="./libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="./style/style.css"/>
+  <script src="./libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="content-wrapper">
+
+  <section class="mcon-mainmenu" style="z-index: 5;">
+
+    <!--
+    -->
+    <div class="container">
+      <div class="row" style="margin-left:0; margin-right: 0;">
+        <div class="logo-con ">
+          <div style="background-image: url(./img/dzsplugins.png); "></div>
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="">
+            <div class="the-bg" style="; "></div>
+
+
+            <div data-thumb="./img/adg3.jpg" data-type="audio"
+                 class="aptest audioplayer-tobe skin-wave button-aspect-noir  zoomsounds-wrapper-bg-center skin-wave-mode-small theme-light  "
+                 data-wrapper-image="./img/bg.jpg"
+                 data-source="./sounds/adg3.mp3">
+              <!--data-source="http://leswebradios.fr:8002/;"-->
+
+              <div class="meta-artist">
+                <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+                href="#">Buy now!</a></span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <br>
+          <br>
+          <br>
+
+          <div class="">
+            <div class="the-bg" style="; "></div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--http://198.24.145.148:9550/;-->
+
+  <!--<iframe src="http://localhost/wordpress/?action=dzscfwp_show_playlist&the_shortcode=%5Bplaylist+ids%3D%22407%2C46%22+embedded%3D%22on%22%5D" style="overflow:hidden; transition: height 0.5s ease-out;" width="100%" height="300" scrolling="no" frameborder="0"></iframe>-->
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+  jQuery(document).ready(function ($) {
+    dzsap_init(".aptest", {
+      autoplay: "off"
+      ,
+      init_each: "on"
+      ,
+      disable_volume: "on"
+      ,
+      skinwave_mode: 'normal'
+      ,
+      settings_backup_type: 'light' // == light or full
+      ,
+      skinwave_: 'light' // == light or full
+      ,
+      skinwave_enableSpectrum: "on",
+      embed_code: 'light' // == light or full
+      ,
+      skinwave_wave_mode_canvas_waves_number: "3"
+      ,
+      skinwave_wave_mode_canvas_waves_padding: "1"
+      ,
+      skinwave_wave_mode_canvas_reflection_size: '0' // == light or full
+      ,
+      design_color_bg: '999999' // --  light or full
+      ,
+      design_wave_color_progress: 'ee4444,ff9999' // -- light or full
+      ,
+      skinwave_comments_enable: 'on' // -- enable the comments, ./inc/php/publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
+      ,
+      skinwave_comments_retrievefromajax: 'on',// --- retrieve the comment form ajax
+
+      failsafe_repair_media_element: 500, // == light or full
+        settings_php_handler: './inc/php/publisher.php',
+
+      settings_extrahtml_in_float_right: '<div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div> <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Add to Cart</span><i class=" svg-icon fa fa-shopping-cart"></i></div>  <div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div>  <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Download</span>  <i class="svg-icon fa fa-download"></i>  </div>'
+    });
+
+    setTimeout(function () {
+//            $('.the-media').html('alceva');
+    }, 100);
+  });
+
+</script>
+<link rel='stylesheet' type="text/css" href="./audioplayer/audioplayer.css"/>
+<script src="./audioplayer/audioplayer.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="../style/style.css"/>
+  <script src="../libs/jquery/jquery.js" type="text/javascript"></script>
+  <script src="../js/main.js" type="text/javascript"></script>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel='stylesheet' type="text/css" href="../audioplayer/audioplayer.css"/>
+  <link rel='stylesheet' type="text/css" href="../audioplayeraudioportal-grid.css"/>
+  <script src="../audioplayer/audioplayer.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="content-wrapper">
+
+  <!--<section class="mcon-mainmenu" style="position: absolute; width: 100%; z-index: 5;">-->
+
+  <!--&lt;!&ndash;-->
+  <!--&ndash;&gt;-->
+  <!--<div class="container">-->
+  <!--<div class="row">-->
+  <!--<div class="logo-con col-md-3">-->
+  <!--<a href="index.html"><img src="../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/></a>-->
+  <!--</div>-->
+  <!--<div class="main-menu-con">-->
+  <!--<ul class="main-menu">-->
+  <!--<li class=" active"><a href="index.html">Home</a></li>-->
+  <!--<li class=" "><a href="#">Get it now!</a></li>-->
+  <!--</ul>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</section>-->
+
+  <section class="mcon-mainmenu-luna" style="position: absolute; width: 100%; z-index: 5;">
+
+    <!--
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="logo-con col-md-3">
+          <a href="index.html"><img src="../img/dzsplugins.png" alt="wordpress video gallery"
+                                    style="margin:0 auto"/></a>
+        </div>
+        <div class="main-menu-con">
+          <ul class="header-menu">
+            <li class=" menu-item active"><a href="index.html">Home</a></li>
+            <li class=" menu-item "><a href="#">Get it now!</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="con-otherdemos" style="position:relative; padding: 200px 0; background-color: #EEEEEE;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init position-relative"
+               data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png" data-scrubprog="waves2/wavesprog.png"
+               data-playfrom="last" data-thumb="img/thumb3.jpg" data-fakeplayer="#dzsap_footer" data-playerid="1177">
+
+            <div class="custom-play-btn ">
+              <div class="icon-svg " style="width: 15px; height: 15px; color: #ccc; fill: #ccc;">{{svg_play_icon}}</div>
+            </div>
+            <div class="custom-pause-btn ">
+              <div class="icon-svg " style="width: 15px; height: 15px; color: #ccc; fill: #ccc;">{{svg_pause_icon}}
+              </div>
+            </div>
+
+
+          </div>
+
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="style-nova">
+
+            <li>
+
+              <div class="li-thumb" style="background-image: url(http://i.imgur.com/v1Md905.jpg)">
+                <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init "
+                     data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png"
+                     data-scrubprog="waves2/wavesprog.png" data-playfrom="last" data-thumb="img/thumb3.jpg"
+                     data-fakeplayer="#dzsap_footer" data-playerid="1177">
+                  <div class="custom-play-btn playbtn-darkround"></div>
+                  <div class="custom-pause-btn pausebtn-darkround"></div>
+                </div>
+              </div>
+
+              <div class="li-meta"><a class="ajax-link track-title" href="index.php?page=track&track_id=2">Total
+                Overdrive</a>
+                <div class=" track-by">by admin</div>
+                <div class="the-price">Free</div>
+              </div>
+
+
+            </li>
+
+            <li>
+
+              <div class="li-thumb" style="background-image: url(http://i.imgur.com/qXMHwE0.jpg)">
+                <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init "
+                     data-source="../sounds/steph1.mp3" data-scrubbg="waves2/adg3_mp3.png"
+                     data-scrubprog="waves2/wavesprog.png" data-playfrom="last" data-thumb="img/thumb3.jpg"
+                     data-fakeplayer="#dzsap_footer" data-playerid="1177">
+
+                  <div class="custom-play-btn playbtn-darkround"></div>
+                  <div class="custom-pause-btn pausebtn-darkround"></div>
+
+
+                </div>
+              </div>
+
+              <div class="li-meta">
+                <a class="ajax-link track-title" href="index.php?page=track&track_id=1">A Beautiful Day</a>
+                <div class=" track-by">by admin</div>
+                <div class="the-price">$50</div>
+              </div>
+
+
+            </li>
+
+          </ul>
+
+          <br>
+          <br>
+          <br>
+
+          <div class="dzsap-woo-grid style-style3">
+            <ul class="dzsap-header-tr">
+              <li class="column-for-player">Play</li>
+              <li class="column-for-buy">Buy</li>
+              <li class="column-for-title">Title</li>
+            </ul>
+            <ul class="dzsap-product-tr">
+              <li class="column-for-player">
+                <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init position-relative "
+                     data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png"
+                     data-scrubprog="waves2/wavesprog.png" data-playfrom="last" data-thumb="img/thumb3.jpg"
+                     data-fakeplayer="#dzsap_footer">
+
+                  <div class="custom-play-btn position-relative playbtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+                  <div class="custom-pause-btn position-relative pausebtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+
+                  <div class="meta-artist-con">
+
+                    <span class="the-artist">Mick Jagger</span>
+                    <span class="the-name">Revenge</span>
+                  </div>
+
+                </div>
+
+              </li>
+              <li class="column-for-buy"><a class="grid-buy-btn"><span class="btn-inner"><i
+                class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;<span class="the-price">49$</span></span></a></li>
+              <li class="column-for-title">ADG3 - Sounds of Future</li>
+            </ul>
+
+            <ul class="dzsap-product-tr">
+              <li class="column-for-player">
+                <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init position-relative "
+                     data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png"
+                     data-scrubprog="waves2/wavesprog.png" data-playfrom="last" data-thumb="img/thumb3.jpg"
+                     data-fakeplayer="#dzsap_footer">
+
+                  <div class="custom-play-btn position-relative playbtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+                  <div class="custom-pause-btn position-relative pausebtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+
+                  <div class="meta-artist-con">
+
+                    <span class="the-artist">Mick Jagger</span>
+                    <span class="the-name">Revenge</span>
+                  </div>
+
+                </div>
+
+              </li>
+              <li class="column-for-buy"><a class="grid-buy-btn"><span class="btn-inner"><i
+                class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;<span class="the-price">49$</span></span></a></li>
+              <li class="column-for-title">ADG3 - Cold Bones</li>
+            </ul>
+
+            <ul class="dzsap-product-tr">
+              <li class="column-for-player">
+                <div data-type="audio" class="audioplayer-tobe skin-customcontrols auto-init position-relative "
+                     data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png"
+                     data-scrubprog="waves2/wavesprog.png" data-playfrom="last" data-thumb="img/thumb3.jpg"
+                     data-fakeplayer="#dzsap_footer">
+
+                  <div class="custom-play-btn position-relative playbtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+                  <div class="custom-pause-btn position-relative pausebtn-darkround" data-border-radius="5px"
+                       data-size="30px"></div>
+
+                  <div class="meta-artist-con">
+
+                    <span class="the-artist">Mick Jagger</span>
+                    <span class="the-name">Revenge</span>
+                  </div>
+
+                </div>
+
+              </li>
+              <li class="column-for-buy"><a class="grid-buy-btn"><span class="btn-inner"><i
+                class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;<span class="the-price">49$</span></span></a></li>
+              <li class="column-for-title">ADG3 - Feel</li>
+            </ul>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+
+          <!--<div data-thumb="../img/adg3.jpg" id="aptest" data-type="audio" class="audioplayer-tobe skin-wave " data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png" data-scrubprog="waves2/wavesprog.png" data-playfrom="last">-->
+          <!--<div class="meta-artist">-->
+          <!--<span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a href="#">Buy now!</a></span>-->
+          <!--</div>-->
+          <!--</div>-->
+
+          <!--<div id="ap23" class="audioplayer-tobe skin-wave auto-init alternate-layout"  data-scrubbg="wavesbg.png" data-scrubprog="wavesprog.png"  style="width:100%;" data-videoTitle="Audio Video" data-type="normal" data-source="song.mp3" data-thumb="img/thumb3.jpg" data-options='{-->
+          <!--skinwave_comments_enable: "on"-->
+          <!--,settings_php_handler:"../inc/php/publisher.php"-->
+          <!--,skinwave_comments_retrievefromajax:"on"-->
+          <!--,skinwave_comments_process_in_php: "on"-->
+
+          <!--}'>-->
+          <!--<div class="meta-artist">-->
+          <!--<span class="the-name">Revenge test test test test test test test test</span>-->
+          <!--<span class="the-artist">Mick Jagger</span>-->
+          <!--</div>-->
+          <!--<div class="menu-description">	<div class="menu-item-thumb-con"><div class="menu-item-thumb" style="background-image: url(../img/adg3.jpg)"></div></div>	<span class="the-artist">Mick Jagger</span>	<span class="the-name">Revenge</span></div>-->
+
+
+          <!--<div class="extra-html">ceva</div>-->
+          <!--</div>-->
+
+
+          <!--<div  data-type="audio" class="audioplayer-tobe skin-redlights auto-init" data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png" data-scrubprog="waves2/wavesprog.png" data-playfrom="last">-->
+          <!--<div class="meta-artist">-->
+          <!--<span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a href="#">Buy now!</a></span>-->
+          <!--</div>-->
+
+          <!--<div class="extra-html-in-controls-right">-->
+          <!--<a class="btn-zoomsounds" href="#" >DOWNLOAD</a>-->
+          <!--<a class="btn-zoomsounds" href="#" >BUY</a>-->
+          <!--</div>-->
+          <!--</div>-->
+
+
+          <!--<div  data-type="audio" class="audioplayer-tobe skin-steel auto-init" data-source="../sounds/adg3.mp3" data-scrubbg="waves2/adg3_mp3.png" data-scrubprog="waves2/wavesprog.png" data-playfrom="last">-->
+          <!--<div class="meta-artist">-->
+          <!--<span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a href="#">Buy now!</a></span>-->
+          <!--</div>-->
+
+          <!--</div>-->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--http://198.24.145.148:9550/;-->
+
+  <!--<iframe src="http://localhost/wordpress/?action=dzscfwp_show_playlist&the_shortcode=%5Bplaylist+ids%3D%22407%2C46%22+embedded%3D%22on%22%5D" style="overflow:hidden; transition: height 0.5s ease-out;" width="100%" height="300" scrolling="no" frameborder="0"></iframe>-->
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="dzsap-sticktobottom-placeholder dzsap-sticktobottom-placeholder-for-skin-silver"></div>
+<section class="dzsap-sticktobottom  dzsap-sticktobottom-for-skin-silver">
+
+
+  <div class="audioplayer-tobe auto-init skin-silver" style="" id="dzsap_footer" data-type="fake" data-source="fake"
+       data-playfrom="off" style=" width: 100%; ;"></div>
+
+
+</section>
+<script>
+  jQuery(document).ready(function ($) {
+//        dzsap_init("#aptest", {
+//            autoplay: "on"
+//            ,skinwave_mode: 'normal'
+////            ,sample_time_start: '30' // --- if this is a sample to a complete song, you can write here start times, if not, leave to 0.
+////            ,sample_time_end: '87'
+////            ,sample_time_total: '120'
+//            ,settings_backup_type: 'light' // == light or full
+//            ,embed_code: 'light' // == light or full
+//            ,failsafe_repair_media_element: 500 // == light or full
+//            ,settings_extrahtml_in_float_right: '<div class="orange-button dzstooltip-con" style="top:10px;"><span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Add to Cart</span><i class="fa fa-shopping-cart"></i></div><div class="orange-button dzstooltip-con" style="top:10px;"><span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Download</span><i class="fa fa-download"></i></div>'
+//        });
+
+    setTimeout(function () {
+//            $('.the-media').html('alceva');
+    }, 100);
+  });
+</script>
+
+
+<style>.con-maindemo {
+  background-color: #222222;
+}
+
+
+.player-con {
+  position: absolute;
+  top: 0;
+  height: calc(100% - 80px);
+
+  width: 100%;
+
+  background-size: cover;
+  background-position: center center;
+
+  background-image: url(img/video_cover.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+.playbtn-darkround, .pausebtn-darkround {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  background-color: rgba(50, 50, 50, 0.65);
+
+
+
+
+
+}
+
+
+.playbtn-darkround[data-border-radius="5px"], .pausebtn-darkround[data-border-radius="5px"] {
+  border-radius: 5px;
+}
+
+.playbtn-darkround[data-size="30px"], .pausebtn-darkround[data-size="30px"] {
+  width: 40px;
+  height: 40px;
+}
+
+.playbtn-darkround[data-size="25px"], .pausebtn-darkround[data-size="25px"] {
+  width: 25px;
+  height: 25px;
+}
+
+
+.playbtn-darkround:after {
+  content: "";
+
+
+  width: 0;
+  height: 0;
+
+
+
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-left: 15px solid #CCCCCC;
+
+
+
+  margin-left: 2px;
+
+}
+
+
+
+
+
+
+.pausebtn-darkround:before, .pausebtn-darkround:after {
+  content: "";
+
+
+  width: 5px;
+  height: 20px;
+
+  margin-left: -4px;
+
+  background-color: #CCCCCC;
+
+
+
+}
+
+.pausebtn-darkround:after {
+  margin-left: 5px;
+}
+
+.playbtn-darkround:hover, .pausebtn-darkround:hover {
+
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+
+
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</body>
+</html>

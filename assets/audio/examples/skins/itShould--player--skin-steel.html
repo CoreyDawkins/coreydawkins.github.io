@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <base href="../../">
+  <link href="./libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="./style/style.css"/>
+  <script src="./libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div class="content-wrapper">
+
+  <div class="con-mainmenu">
+
+    <!--
+    http://160.94.138.250:8128/
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="logo-con span3">
+          <img src="./img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+        </div>
+        <div class="main-menu-con span9">
+          <ul id="menu-main-menu" class="menu sf-menu" style="top: 9px;">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div data-thumb="./img/adg3.jpg" id="aptest" data-type="audio"
+               class="audioplayer-tobe skin-steel 2theme-dark " data-source="./sounds/adg3.mp3"
+                 data-playfrom="last">
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+              href="#">Buy now!</a></span>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+  jQuery(document).ready(function ($) {
+    dzsap_init("#aptest", {
+      autoplay: "off"
+      , skinwave_mode: 'normal'
+      , settings_backup_type: 'light' // == light or full
+      , skinwave_: 'light' // == light or full
+      , skinwave_enableSpectrum: "on"
+      , skinwave_wave_mode_canvas_waves_number: "200"
+      , embed_code: 'light' // == light or full
+      , skinwave_comments_enable: 'on' // -- enable the comments, ./inc/php/publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
+      , skinwave_comments_retrievefromajax: 'on'// --- retrieve the comment form ajax
+      , failsafe_repair_media_element: 500
+    });
+
+    setTimeout(function () {
+//            $('.the-media').html('alceva');
+    }, 100);
+  });
+</script>
+
+
+<link rel='stylesheet' type="text/css" href="./audioplayer/audioplayer.css"/>
+<script src="./audioplayer/audioplayer.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./audioplayer/parts/player-skins/player-skin--skin-steel.css"/>
+</body>
+</html>

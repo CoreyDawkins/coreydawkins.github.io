@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>No controls - custom outside</title>
+  <link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="../../style/style.css"/>
+  <script src="../../libs/jquery/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="content-wrapper">
+
+  <div class="con-mainmenu">
+
+    <!--
+    http://160.94.138.250:8128/
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="logo-con span3">
+          <img src="../../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+        </div>
+        <div class="main-menu-con span9">
+          <ul id="menu-main-menu" class="menu sf-menu" style="top: 9px;">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="">
+
+            <h3>Normal player and waveform</h3>
+            <br>
+            <div class="aux-player-and-waveform">
+
+              <style>
+                .audioplayer-tobe {
+                  opacity: 0;
+                }
+
+                .zoomsounds-external-scrubbar .scrubbar {
+                  opacity: 0;
+                }
+              </style>
+
+              <div data-thumb="../../img/bg.jpg" data-type="audio"
+                   class="aptest-with-play audioplayer-tobe skin-wave button-aspect-noir   disable-all-but-play-btn  "
+                   data-source="../../sounds/itsabeautifulday.mp3" data-playfrom="last">
+                <div class="meta-artist">
+                  <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+                  href="#">Buy now!</a></span>
+                </div>
+              </div>
+
+              <div class="skin-wave zoomsounds-external-scrubbar-for-with-play zoomsounds-external-scrubbar">
+                <div class="scrubbar">
+
+                  <div class="scrub-bg">
+                    <canvas class="scrub-bg-img" style="width: 40px;" width="40" height="75"></canvas>
+                  </div>
+                  <div class="scrub-buffer"></div>
+                  <div class="scrub-prog" style="width: 0.193319px;">
+                    <canvas class="scrub-prog-img" style="width: 40px;" width="40" height="75"/>
+                  </div>
+                  <div class="scrubBox"></div>
+                  <div class="scrubBox-prog"></div>
+                  <div class="scrubBox-hover"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <br>
+            <br>
+
+            <h3>Player and waveform - play in footer</h3>
+            <br>
+            <div class="aux-player-and-waveform">
+
+              <style>
+                .audioplayer-tobe {
+                  opacity: 0;
+                }
+              </style>
+
+              <div data-thumb="../../img/bg2.jpg" data-type="audio"
+                   class=" audioplayer-tobe  button-aspect-noir auto-init   disable-all-but-play-btn zoomsounds-player-id-2321 "
+                   data-source="../../sounds/adg3.mp3" data-playfrom="last" data-fakeplayer=".dzsap_footer"
+                   data-options='{
+"design_skin": "skin-wave",
+"playfrom": "0",
+"settings_php_handler": "../../inc/php/publisher.php",
+"controls_external_scrubbar": ".zoomsounds-external-scrubbar-for-zoomsounds-player-id-2321"}'>
+                <div class="meta-artist">
+                  <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+                  href="#">Buy now!</a></span>
+                </div>
+              </div>
+
+              <div
+                class="skin-wave zoomsounds-external-scrubbar-for-zoomsounds-player-id-2321 zoomsounds-external-scrubbar">
+                <div class="   scrubbar">
+
+                  <div class="scrub-bg">
+                    <canvas class="scrub-bg-img" style="width: 40px;" width="40" height="75"></canvas>
+                  </div>
+                  <div class="scrub-buffer"></div>
+                  <div class="scrub-prog" style="width: 0.193319px;">
+                    <canvas class="scrub-prog-img" style="width: 40px;" width="40" height="75"></canvas>
+                  </div>
+                  <div class="scrubBox"></div>
+                  <div class="scrubBox-prog"></div>
+                  <div class="scrubBox-hover"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <br>
+          <br>
+          <br>
+
+          <div class="">
+            <div class="the-bg" style="; "></div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="dzsap-sticktobottom-placeholder dzsap-sticktobottom-placeholder-for-skin-wave"></div>
+<section class="dzsap-sticktobottom  dzsap-sticktobottom-for-skin-wave">
+  <div class="dzs-container">
+
+    <div
+      class="audioplayer-tobe playerid-34528259 ap_idx_32_2 is-single-player apconfig-footer-player button-aspect-noir button-aspect-noir--filled  skin-wave  dzsap_footer auto-init"
+      style=" width: 100%;" id="dzsap_footer" data-playerid="dzs_footer" data-sanitized_source="fake" data-type="fake"
+      data-source="fake" data-playfrom="off"
+      data-options='{"design_skin":"skin-wave","autoplay":"off","disable_volume":"default","loop":"off","cue":"off","embedded":"off","preload_method":"metadata","design_animateplaypause":"default","skinwave_dynamicwaves":"off","skinwave_enableSpectrum":"off","skinwave_enableReflect":"on","playfrom":"off","default_volume":"default","disable_scrub":"off","skinwave_comments_enable":"off","skinwave_mode":"small","skinwave_wave_mode":"canvas","pcm_data_try_to_generate":"on","pcm_notice":"off","notice_no_media":"on","skinwave_wave_mode_canvas_waves_number":"3","skinwave_wave_mode_canvas_waves_padding":"1","skinwave_wave_mode_canvas_reflection_size":"0.25","design_color_bg":"111111","design_wave_color_progress":"ef6b13","design_color_highlight":"ef6b13","skinwave_wave_mode_canvas_mode":"normal","preview_on_hover":"off","skinwave_comments_playerid":"34528259"}'>
+      <div class="meta-artist track-meta-for-dzsap"><span class="the-artist first-line"></span><span
+        class="the-name the-songname second-line"></span></div>
+      <div class="menu-description"><span class="the-artist"> </span><span class="the-name"> </span></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  jQuery(document).ready(function ($) {
+
+    dzsap_init(".aptest-with-play", {
+      init_each: "on",
+      disable_volume: "on",
+      skinwave_mode: 'normal',
+      settings_backup_type: 'light',
+      skinwave_: 'light' // == light or full
+      ,
+      skinwave_enableSpectrum: "off"
+      ,
+      embed_code: 'light' // == light or full
+      ,
+      skinwave_wave_mode_canvas_waves_number: "3"
+      ,
+      skinwave_wave_mode_canvas_waves_padding: "1"
+      ,
+      skinwave_wave_mode_canvas_reflection_size: '0.5' // == light or full
+      ,
+      skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
+      ,
+      design_color_bg: '999999,ffffff' // --  light or full
+      ,
+      preview_on_hover: 'off' // --  light or full
+      ,
+      design_wave_color_progress: 'ff657a,444444', // -- light or full
+      settings_php_handler: '../../inc/php/publisher.php',
+      pcm_data_try_to_generate: 'on',
+      controls_external_scrubbar: '.zoomsounds-external-scrubbar-for-with-play',
+      skinwave_comments_enable: 'on' // -- enable the comments, ../../inc/php/publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
+      ,
+      skinwave_comments_retrievefromajax: 'on'// --- retrieve the comment form ajax
+      ,
+      failsafe_repair_media_element: 500 // == light or full
+      ,
+      settings_extrahtml_in_float_right: '<div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div> <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Add to Cart</span><i class=" svg-icon fa fa-shopping-cart"></i></div>  <div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div>  <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Download</span>  <i class="svg-icon fa fa-download"></i>  </div>'
+    });
+
+    setTimeout(function () {
+//            $('.the-media').html('alceva');
+    }, 100);
+  });
+</script>
+<style
+  class="player-custom-style"> body .audioplayer.skin-wave.playerid-34528259:not(.a) .player-but .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .playbtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .pausebtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .ap-controls .scrubbar .scrubBox-hover, body .audioplayer.skin-wave.playerid-34528259:not(.a) .volume_active {
+  background-color: #111111;
+  border-color: #111111;
+} </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel='stylesheet' type="text/css" href="../../audioplayer/audioplayer.css"/>
+<script src="../../audioplayer/audioplayer.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+</body>
+</html>

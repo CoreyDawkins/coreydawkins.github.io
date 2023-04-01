@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Audio Players Preview</title>
+    <link rel='stylesheet' type="text/css" href="../style/style.css"/>
+    <script src="../libs/jquery/jquery.js" type="text/javascript"></script>
+    <link rel='stylesheet' type="text/css" href="../audioplayer/audioplayer.css"/>
+    <script src="../audioplayer/audioplayer.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="content-wrapper">
+
+    <section class="mcon-mainmenu" style="position: absolute; z-index: 5; width:100%;">
+
+        <!--
+        -->
+        <div class="container">
+            <div class="row">
+                <div class="logo-con span3">
+                    <img src="../img/dzsplugins.png" alt="wordpress video gallery" style="margin:0 auto"/>
+                </div>
+                <div class="main-menu-con span9">
+                    <ul id="menu-main-menu" class="menu sf-menu" style="top: 9px;">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="con-maindemo" id="a-demo">
+        <div class="ap-wrapper center-ap" style="width:100%; background-color: #3a3a3a;">
+            <!--<div id="ap2" class="audioplayer-tobe skin-wave auto-init" style="width:100%; margin-top: 70px; " data-thumb="../img/adg3.jpg" data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-videoTitle="Audio Video" data-type="normal" data-source="../sounds/adg3.mp3" data-options='{-->
+            <!--autoplay: "on"-->
+            <!--,cue: "off"-->
+            <!--,disable_volume: "off"-->
+            <!--,skinwave_mode: "small"-->
+            <!--}'>-->
+                <!--<div class="meta-artist"><span class="the-artist">Mick Jagger</span><span class="the-name">Revenge</span></div>-->
+            <!--</div>-->
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div id="apminimal" class="audioplayer-tobe skin-minimal auto-init" style="width:100%; margin-top: 70px; "  data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-videoTitle="Audio Video" data-type="normal" data-source="../sounds/adg3.mp3" data-options='{
+            autoplay: "off"
+            ,cue: "on"
+            ,disable_volume: "on"
+            ,skin_minimal_button_size: "80"
+            ,skinwave_mode: "small"
+            }'>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div id="ap23" class="audioplayer-tobe skin-wave auto-init disable-scrubbar disable-volume" style="width:100%; margin-top: 70px; "  data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-videoTitle="Audio Video" data-type="normal" data-source="../sounds/adg3.mp3" data-options='{
+            autoplay: "off"
+            ,cue: "on"
+            ,disable_volume: "on"
+            ,skinwave_mode: "small"
+            }'>
+
+                        </div>
+                        <a href="#" onclick='document.getElementById("ap23").api_play_media(); return false; '>Play</a>
+                        <a href="#" onclick='document.getElementById("ap23").api_pause_media(); return false; '>Pause</a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="audioplayer-tobe skin-pro auto-init" style="width:100%; margin-top: 70px; "  data-scrubbg="waves/scrubbg.png" data-scrubprog="waves/scrubprog.png" data-videoTitle="Audio Video" data-type="normal" data-source="../sounds/adg3.mp3" data-options='{
+            autoplay: "on"
+            ,cue: "off"
+            }'>
+                <div class="meta-artist"><span class="the-artist">Endless Forms</span>&nbsp;<span class="the-name">Curling Into Crescent</span></div><div class="menu-description"><span class="the-artist">Endless Forms</span><span class="the-name">Curling Into Crescent</span></div>
+            </div>
+
+
+            <style>
+                body .audioplayer.skin-silver .ap-controls{
+
+                    background-color:  #ff0000;
+
+                }
+
+                body .audioplayer.skin-silver .ap-controls .ap-controls-right .meta-artist-con, body .audioplayer.skin-silver .ap-controls .ap-controls-right .total-time, body .audioplayer.skin-silver .ap-controls  .curr-time{
+
+                    color: #23adca;
+
+                }
+
+                body .audioplayer.skin-silver .ap-controls .scrubbar .scrub-bg{
+
+                    background-color: #da2134;
+
+                }
+
+                body .audioplayer.skin-silver .ap-controls .ap-controls-left .con-playpause .playbtn path{
+
+                    fill: #0000ff;
+
+                }
+
+                body .audioplayer.skin-aria .ap-controls .ap-controls-left .con-playpause .playbtn path,body .audioplayer.skin-aria .ap-controls .ap-controls-left .con-playpause .pausebtn path{
+
+                    background-color: #00ff00;
+
+                }
+            </style>
+
+            <audio src="../sounds/adg3.mp3" width="320" class="zoomsounds-from-audio" id="rt_media_audio_7" controls="controls" preload="none"></audio>
+
+    </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div id="ap-justthumbandbutton" class="audioplayer-tobe skin-justthumbandbutton" style="" data-thumb="../img/vinyl.png"   data-type="normal" data-source="../sounds/adg3.mp3">
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="container" style="max-width: 900px;;">
+            <div class="row">
+
+                <div class="col-md-4"></div>
+                <div class="col-md-4 track-con ">
+                    <!--<img class="fullwidth" src="../img/track1.jpg">-->
+
+
+
+                    <div class="dzsparallaxer-con">
+                        <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 330px;">
+
+                            <div class="divimage dzsparallaxer--target " style="width: 100%; height: 375px; background-image: url(../img/track1.jpg)">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="audioplayer-tobe skin-customcontrols auto-init" style=""    data-type="normal" data-source="../sounds/adg3.mp3">
+                        <div class="custom-play-btn"><div class=" play-button-con"  style="color: #cb1919;"><i class="fa fa-play"></i></div></div>
+                        <div class="custom-pause-btn"><div class=" play-button-con "  style="color: #cb1919;"><i class="fa fa-pause"></i></div></div>
+                    </div>
+
+
+
+                    <!--<div class="play-button-con">-->
+                    <!--<i class="fa fa-play"></i>-->
+                    <!--</div>-->
+
+                    <h3>Green Mood</h3>
+                </div>
+
+
+
+            </div>
+        </div>
+</div>
+<div class="con-otherdemos">
+    <div class="container">
+        <div class="separator"></div>
+        <div class="row">
+                <span class="span12">
+
+                    <h1 class="hero-heading">The Audio Player. Reinvented.</h1>
+                </span>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <div id="ag-ap1" class="audiogallery" style="opacity:1; margin-top: 70px;">
+                    <div class="items">
+                <div id="ap1" class="audioplayer-tobe skin-pro" style="width:100%; margin-top:0; height:auto;" data-videoTitle="Audio Video" data-type="normal" data-source="../sounds/adg3.mp3" data-sourceogg="sounds/adg3.ogg" data-thumb="img/tim.jpg">
+                    <div class="meta-artist"><span class="the-artist">Tim McMorris</span> - It's a beautiful day</div>
+                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="span6">
+
+                <h2 class="row-title">Fully Customizable.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p>You can disable scrubbar, volume controls, fullscreen controls thumbnail and more. You can
+                    customize all colors via CSS. The player on the left uses the second skin of the player. The
+                    first skin being the sound wave skin at the top.</p>
+                <br/>
+
+                <h2 class="row-title">Retina Ready.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p>Each skin is fully responsive and retina-ready. Wow. The player itself has been tested on all
+                    major browsers, Firefox, Chrome, Opera, Safari, IE7-10. And optimized for the iOS and Android
+                    mobile platforms.</p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+            <div class="span6">
+
+                <h2 class="row-title">Minimal Player.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p>Sometimes more is less, and this player has every scenario covered. This in the right is the
+                    representation of the third skin of the player, a minimal implementation which even has scrub
+                    controls ( if you click on the margins ). </p>
+                <br/>
+
+                <h2 class="row-title">Only One Format.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p>Todays html5 audio players require the world in different audio formats. But not this one. Only
+                    mp3 is required and ogg is optional.</p>
+                <br/>
+
+                <h2 class="row-title">Smart.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p>You can place as many players on a page as you wish. If another player is playing and you click on a different one, the other player will stop playing, just try in here.</p>
+            </div>
+            <div class="span6 hero-box">
+                <div id="ap3" class="audioplayer-tobe skin-minimal"
+                     style="position:absolute; top:50%; left: 50%; margin-left: -50px; margin-top:-50px; width:100px;"
+                     data-type="normal" data-source="../sounds/adg3.mp3" data-sourceogg="sounds/adg3.ogg">
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+            <div class="span6">
+                <div id="apyt" data-type="youtube" class="audioplayer-tobe skin-default" data-source="SIW5QU2lGe8"></div>
+            </div>
+            <div class="span6">
+
+                <h2 class="row-title">Plays From YouTube.</h2>
+                <div class="simple-hr mb10"></div>
+                <p>Self hosted audios are not your only option. You can also play streams from YouTube or SoundCloud. </p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+            <div class="span6">
+
+                <h2 class="row-title">Plays From SoundCloud.</h2>
+                <div class="simple-hr mb10"></div>
+                <p>You'll need to get an API key - read docs. </p>
+            </div>
+            <div class="span6">
+                <div id="apsc" data-type="soundcloud" class="audioplayer-tobe skin-default" data-source="https://soundcloud.com/dubstep/stardust-by-james-egbert-schoolboy-ft-taylr-renee"></div>
+            </div>
+        </div><div class="separator"></div>
+        <div class="row">
+            <div class="span6">
+
+                <h2 class="row-title">Plays From ZoomBox.</h2>
+                <div class="simple-hr mb10"></div>
+                <p>. </p>
+            </div>
+            <div class="span6">
+
+                <div class="span3 cimage-fullwidth">
+                    <a href="../sounds/adg3.mp3" data-coverimage="../img/bg2.jpg" data-sourceogg="sounds/adg3.ogg" data-type="audio" class="zoombox effect-justopacity"><img class="thumb-gamma" src="../img/bg2.jpg"/></a>
+                    <div class="thumb-title">Audio File</div>
+                    <div class="thumb-subtitle">via <a target="_blank" href="http://bit.ly/12zBM4c">ZoomSounds</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+            <div class="span6">
+                <div id="apsh" data-type="shoutcast" class="audioplayer-tobe skin-default" data-source="http://streamplus40.leonex.de:41364/;"></div>
+            </div>
+            <div class="span6">
+
+                <h2 class="row-title">Plays From ShoutCast Radio.</h2>
+                <div class="simple-hr mb10"></div>
+                <p>You'll need to get an API key - read docs. </p>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+            <div class="span12">
+
+                <h2 class="row-title">API test.</h2>
+
+                <div class="simple-hr mb10"></div>
+                <p><a href="#" onclick='document.getElementById("ap2").fn_pause_media(); return false;'>pause first audio</a></p>
+                <p><a href="#" onclick='document.getElementById("ap2").fn_play_media(); return false;'>play first audio</a></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span12">
+                <h2 class="row-title">Choose a demo.</h2>
+                <div class="simple-hr mb10"></div>
+                <br/>
+            </div>
+            <div class="span4">
+                <a href="index.html" target=""><img class="example-button " src="../img/e1.jpg" style="width:100%;"/></a>
+            </div>
+            <div class="span4">
+                <a href="index-minion.html" target=""><img class="example-button " src="../img/e2.jpg" style="width:100%;"/>
+                </a>
+            </div>
+            <div class="span4">
+                <a href="index-player.html" target=""><img class="example-button active" src="../img/e3.jpg" style="width:100%;"/>
+                </a>
+            </div>
+            <div class="clear"></div><br/>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="mcon-features">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+
+
+                <div  class="audioplayer-tobe auto-init skin-justthumbandbutton" style="width: 100%;" data-type="normal" data-thumb="../img/thumb4.jpg" data-source="../sounds/adg3.mp3" data-sourceogg="sounds/adg3.ogg"></div>
+            </div>
+            <div class="span3">
+
+                <div  class="audioplayer-tobe auto-init skin-justthumbandbutton" style="width: 100%;" data-type="normal" data-thumb="../img/thumb4.jpg" data-source="../sounds/adg3.mp3" data-sourceogg="sounds/adg3.ogg"></div>
+            </div>
+            <div class="span3">
+
+                <div id="" class="audioplayer-tobe auto-init skin-justthumbandbutton" style="width: 100%;" data-type="normal" data-thumb="../img/thumb4.jpg" data-source="../sounds/adg3.mp3" ></div>
+            </div>
+            <div class="span3">
+
+                <div  class="audioplayer-tobe auto-init skin-justthumbandbutton" style="width: 100%;" data-type="normal" data-thumb="../img/thumb4.jpg" data-source="../sounds/adg3.mp3" data-sourceogg="sounds/adg3.ogg"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row">
+            <div class="span3">
+
+                <div class="bigfeature"><i class="icon-thumbs-up"></i></div>
+                <h4>Easy Install</h4>
+                <p style="text-align: center">Install ZoomSounds in just a couple of minutes. <a href="http://digitalzoomstudio.net/docs/zoomsounds/" target="_blank">Docs</a> are also there.</p>
+            </div>
+            <div class="span3">
+                <div class="bigfeature"><i class="icon-desktop"></i></div>
+                <h4>Responsive</h4>
+                <p style="text-align: center">From mobile to HD, this gallery is ultra responsive. Also has retina graphics.</p>
+            </div>
+            <div class="span3">
+                <div class="bigfeature"><i class="icon-pencil"></i></div>
+                <h4>Customizable</h4>
+                <p style="text-align: center">Customize ZoomSounds to your needs. The possibilities are endless.</p>
+            </div>
+            <div class="span3">
+                <div class="bigfeature"><i class="icon-briefcase"></i></div>
+                <h4>SEO Friendly</h4>
+                <p style="text-align: center">Built with SEO in mind, ZoomSounds parses html content into working magic.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="con-footer">
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+            </div>
+            <div class="span6" style="text-align: right">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script>
+    jQuery(document).ready(function ($) {
+        dzsap_init("#apsh", {
+            autoplay: "off"
+            ,disable_scrub:'onff'
+        });
+        dzsap_init("#ap-justthumbandbutton", {
+            autoplay: "off"
+            ,disable_scrub:'onff'
+        });
+
+
+//        dzsap_init("#ap2", );
+
+//        dzsag_init('#ag-ap1',{
+//
+//        });
+
+        return;
+        dzsap_init("#ap3", {
+            autoplay: "off"
+        });
+        dzsap_init("#apyt", {
+            autoplay: "off"
+        });
+        dzsap_init("#aptest", {
+            autoplay: "off"
+        });
+        dzsap_init("#aptest", {
+            autoplay: "off"
+        });
+
+        // == will not work without souncloud api key
+//        dzsap_init("#apsc", { autoplay: "off" });
+
+    });
+</script>
+<link rel="stylesheet" href="../libs/fontawesome/font-awesome.min.css">
+<link rel="stylesheet" href="../libs/zoombox/zoombox.css">
+<script src="../libs/zoombox/zoombox.js"></script>
+<link rel="stylesheet" href="../audioplayer/parts/player-skins/player-skin--skin-minimal.css"/>
+<link rel="stylesheet" href="../audioplayer/parts/player-skins/player-skin--skin-pro.css"/>
+<link rel="stylesheet" href="../audioplayer/parts/player-skins/player-skin--skin-silver.css"/>
+<link rel="stylesheet" href="../audioplayer/parts/player-skins/player-skin--skin-justthumbandbutton.css"/>
+</body>
+</html>

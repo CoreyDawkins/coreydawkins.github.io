@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <base href="../../">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <link href="./libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="./style/style.css"/>
+  <script src="./libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel='stylesheet' type="text/css" href="./audioplayer/audioplayer.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="content-wrapper">
+
+
+  <div class="con-maindemo" id="a-demo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <h5>Invoke footer player</h5>
+          <br>
+
+          <div data-thumb="./img/adg3.jpg" data-type="audio"
+               class="audioplayer-tobe simple-ap-init skin-wave button-aspect-noir   " data-pcm='[0.368,-0.163,0.623,-0.442,0.273,-0.305,0.668,-0.474,0.434,-0.66,0.557,-0.243,0.476,-0.694,0.608,-0.884,0.536,-0.339,0.614,-0.323,0.417,-0.169,0.331,-0.428,0.847,-0.748,0.502,-0.288,0.496,-0.734,0.465,-0.226,0.497,-0.535,0.465,-0.717,0.542,-0.46,0.591,-0.42,0.342,-0.372,0.342,-0.602,0.52,-0.22,0.201,-0.444,0.85,-0.444,0.361,-0.491,0.225,-0.483,0.368,-0.319,0.378,-0.352,0.313,-0.541,0.405,-0.291,0.486,-0.377,0.753,-0.404,0.493,-0.373,0.486,-0.38,0.513,-0.602,0.639,-0.332,0.397,-0.541,0.54,-0.542,0.458,-0.263,0.412,-0.395,0.316,-0.453,0.39,-0.595,0.382,-0.366,0.482,-0.439,0.498,-0.492,0.273,-0.743,0.308,-0.556,0.468,-0.771,0.471,-0.617,0.476,-0.466,0.593,-0.661,0.674,-0.63,0.289,-0.731,0.579,-0.722,0.547,-0.49,0.444,-0.676,0.521,-0.818,0.598,-0.599,0.722,-0.644,0.676,-0.397,0.401,-0.463,0.335,-0.387,0.235,-0.361,0.947,-0.319,0.216,-0.547,0.453,-0.417,0.458,-0.399,0.453,-0.315,0.435,-0.495,0.372,-0.243,0.481,-0.556,0.294,-0.438,0.425,-0.601,0.58,-0.775,0.404,-0.289,0.577,-0.549,0.723,-0.173,0.407,-0.25,0.426,-0.447,0.418,-0.563,0.321,-0.557,0.552,-0.394,0.325,-0.32,0.565,-0.417,0.557,-0.201,0.484,-0.417,0.33,-0.464,0.653,-0.405,0.434,-0.377,0.46,-0.23,0.714,-0.606,0.704,-0.506,0.667,-0.854,0.369,-0.69,0.429,-0.31,0.555,-0.558,0.72,-0.395,0.459,-0.702,0.82,-0.832,0.887,-0.776,0.54,-0.319,0.693,-0.738,0.576,-0.374,0.597,-0.857,0.601,-0.367,0.527,-0.598,0.843,-0.63,0.458,-0.364,0.75,-0.66,0.653,-0.633,0.698,-0.576,0.438,-0.578,0.372,-0.579,0.326,-0.441,0.922,-0.44,0.496,-0.896,0.504,-0.862,0.532,-0.807,0.551,-0.566,0.379,-0.646,0.379,-0.923,0.538,-0.773,0.566,-0.411,0.69,-0.959,0.756,-0.596,0.785,-0.689,0.506,-0.451,0.355,-0.419,0.556,-0.701,0.504,-0.482,0.635,-0.685,0.71,-0.475,0.729,-0.402,0.656,-0.569,0.817,-0.651,0.703,-0.835,0.599,-0.723,0.589,-0.56,0.434,-0.875,0.679,-0.511,0.845,-0.595,0.697,-0.887,0.386,-0.488,0.779,-0.443,0.576,-0.562,0.593,-0.758,0.461,-0.599,0.681,-0.453,0.816,-0.491,0.551,-0.625,0.541,-0.703,0.449,-0.51,0.671,-0.277,0.398,-0.413,0.395,-0.375,0.522,-0.409,0.537,-0.264,0.384,-0.3,0.332,-0.468,0.406,-0.259,0.336,-0.827,0.336,-0.364,0.399,-0.411,0.445,-0.45,0.575,-0.446,0.625,-0.284,0.473,-0.84,0.457,-0.388,0.294,-0.35,0.501,-0.585,0.47,-0.482,0.579,-0.463,0.085,-0.401,0.523,-0.493,0.279,-0.24,0.245,-0.288,0.319,-0.417,0.231,-0.4,0.558,-0.409,0.408,-0.422,0.376,-0.506,0.485,-0.418,0.649,-0.352,0.663,-0.401,0.564,-0.53,0.454,-0.524,0.444,-0.422,0.471,-0.821,0.668,-0.237,1,-0.835,0.423,-0.63,0.779,-0.586,0.747,-0.871,0.508,-0.237,0.307,-0.882,0.501,-0.587,0.284,-0.534,0.734,-0.492,0.358,-0.523,0.602,-0.607,0.434,-0.864,0.707,-0.697,0.841,-0.429,0.69,-0.758,0.636,-0.573,0.713,-0.302,0.857,-0.363,0.432,-0.757,0.351,-0.804,0.419,-0.464,0.518,-0.391,0.736,-0.618,0.41,-0.626,0.632,-0.742,0.838,-0.364,0.445,-0.718,0.43,-0.297,0.327,-0.271,0.707,-0.708,0.653,-0.299,0.655,-0.524,0.503,-0.413,0.609,-0.349,0.638,-0.422,0.18,-0.319,0.65,-0.384,0.634,-0.409,0.624,-0.389,0.501,-0.477,0.551,-0.373,0.376,-0.425,0.422,-0.6,0.56,-0.357,0.522,-0.248,0.375,-0.387,0.598,-0.648,0.547,-0.647,0.535,-0.63,0.314,-0.449,0.592,-0.433,0.339,-0.341,0.233,-0.17,0.182,-0.273,0.263,-0.179,0.151,-0.208,0.114,-0.151,0.167,-0.09,0.054,-0.116,0.115,-0.083,0.053,-0.022,0.047,-0.028,0.021,-0.021,0.009,-0.008,0.001,-0.001,0,0]'
+
+               data-source="./sounds/adg3.mp3"
+               data-fakeplayer=".dzsap_footer" data-playfrom="0"
+               data-options='{"autoplay":"off"}'>
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger - Revenge</span><span class="the-name"><a
+              href="#">Buy now!</a></span>
+            </div>
+
+          </div>
+
+
+          <br>
+          <br>
+          <br>
+
+
+
+          <br>
+          <br>
+          <br>
+
+
+          <h5>Different player invoking the footer player</h5>
+          <div data-thumb="./img/adg3.jpg" id="aptest2" data-type="audio"
+               class="audioplayer-tobe skin-wave auto-init2  "
+               data-source="./sounds/song.mp3" data-fakeplayer=".dzsap_footer" data-playfrom="0">
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger2 - Revenge2</span><span class="the-name"><a
+              href="#">Buy now!2</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--http://198.24.145.148:9550/;-->
+
+  <!--<iframe src="http://localhost/wordpress/?action=dzscfwp_show_playlist&the_shortcode=%5Bplaylist+ids%3D%22407%2C46%22+embedded%3D%22on%22%5D" style="overflow:hidden; transition: height 0.5s ease-out;" width="100%" height="300" scrolling="no" frameborder="0"></iframe>-->
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="dzsap-sticktobottom-placeholder dzsap-sticktobottom-placeholder-for-skin-wave"></div>
+<section class="dzsap-sticktobottom  dzsap-sticktobottom-for-skin-wave">
+  <div class="dzs-container">
+    <style
+      class="player-custom-style"> body .audioplayer.skin-wave.playerid-34528259:not(.a) .player-but .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .playbtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .pausebtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .ap-controls .scrubbar .scrubBox-hover, body .audioplayer.skin-wave.playerid-34528259:not(.a) .volume_active {
+      background-color: #da2233;
+      border-color: #da2233;
+    } </style>
+
+
+    <div
+      class="audioplayer-tobe playerid-34528259  is-single-player apconfig-footer-player button-aspect-noir button-aspect-noir--filled  skin-wave  dzsap_footer"
+      style=" width: 100%;" id="dzsap_footer" data-playerid="dzs_footer" data-sanitized_source="fake" data-type="fake"
+      data-source="fake" data-playfrom="off">
+      <div class="meta-artist track-meta-for-dzsap"><span class="the-artist first-line"></span><span
+        class="the-name the-songname second-line"></span></div>
+      <div class="menu-description"><span class="the-artist"> </span><span class="the-name"> </span></div>
+    </div>
+    <script>jQuery(document).ready(function ($) {
+      var settings_apFooter = {
+        design_skin: "skin-wave",
+        autoplay: "off",
+        disable_volume: "default",
+        loop: "off",
+        cue: "off",
+        embedded: "off",
+        preload_method: "metadata",
+        design_animateplaypause: "default",
+        skinwave_dynamicwaves: "off",
+        skinwave_enableSpectrum: "off",
+        skinwave_enableReflect: "on",
+        playfrom: "off",
+        default_volume: "default",
+        disable_scrub: "off",
+        skinwave_comments_enable: "off",
+        settings_php_handler: window.ajaxurl,
+        skinwave_mode: "small",
+        skinwave_wave_mode: "canvas",
+        pcm_data_try_to_generate: "on",
+        "pcm_notice": "off",
+        "notice_no_media": "on",
+        skinwave_wave_mode_canvas_waves_number: "3",
+        skinwave_wave_mode_canvas_waves_padding: "1",
+        skinwave_wave_mode_canvas_reflection_size: "0.25",
+        design_color_bg: "111111",
+        design_wave_color_progress: "ef6b13",
+        design_color_highlight: "ef6b13",
+        skinwave_wave_mode_canvas_mode: "normal",
+        preview_on_hover: "off",
+        skinwave_comments_playerid: "34528259"
+      };
+      try {
+        dzsap_init(".dzsap_footer", settings_apFooter);
+      } catch (err) {
+        console.warn("cannot init player", err);
+      }
+    });</script>
+  </div>
+</section>
+
+
+<script>
+
+
+  // -- set publisher
+  window.dzsap_settings = {
+    php_handler: "./inc/php/publisher.php",
+  }
+  jQuery(document).ready(function ($) {
+    dzsap_init(".simple-ap-init", {
+      autoplay: "off",
+      skinwave_mode: 'normal',
+      preload_method: 'none',
+      skinwave_enableSpectrum: "off"
+      , skinwave_wave_mode_canvas_waves_number: "2"
+      , pcm_data_try_to_generate_wait_for_real_pcm: "off"
+      , embed_code: 'light' // == light or full
+      , skinwave_comments_enable: 'on' // -- enable the comments, ./inc/php/publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
+      , skinwave_comments_retrievefromajax: 'on'// --- retrieve the comment form ajax
+      , failsafe_repair_media_element: 500 // == light or full
+//            ,settings_extrahtml_in_float_right: '<div class="orange-button dzstooltip-con" style="top:10px;"><span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Add to Cart</span><i class="fa fa-shopping-cart"></i></div><div class="orange-button dzstooltip-con" style="top:10px;"><span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Download</span><i class="fa fa-download"></i></div>'
+    });
+
+    setTimeout(function () {
+//            $('.the-media').html('alceva');
+    }, 100);
+  });
+</script>
+<script src="./audioplayer/audioplayer.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./libs/fontawesome/font-awesome.min.css">
+</body>
+</html>

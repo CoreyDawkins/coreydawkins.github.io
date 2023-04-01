@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Audio Player Preview</title>
+  <link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel='stylesheet' type="text/css" href="../../style/style.css"/>
+  <script src="../../libs/jquery/jquery.js" type="text/javascript"></script>
+  <link rel='stylesheet' type="text/css" href="../../audioplayer/audioplayer.css"/>
+</head>
+<body>
+<div class="content-wrapper">
+
+
+  <div class="con-maindemo" id="a-demo">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>no publisher, sweet external</h3>
+          <br>
+          <div data-thumb="../../img/adg3.jpg" id="www" data-type="audio"
+               class="audioplayer-tobe skin-wave auto-init2   " data-source="http://192.168.0.107/testimages/sw'eet.mp3"
+               data-fakeplayer=".dzsap_footer" data-playfrom="0"
+               data-options='{
+"settings_php_handler":""
+}' >
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger2 - Revenge2</span><span class="the-name"><a  href="#">Buy external</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="con-maindemo" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>publisher, adg3</h3>
+          <br>
+          <div data-thumb="../../img/adg3.jpg"  data-type="audio"
+               class="audioplayer-tobe skin-wave auto-init  " data-source="../../sounds/adg3.mp3"
+               data-fakeplayer=".dzsap_footer" data-playfrom="0"
+               data-options='{
+"settings_php_handler":"../../inc/php/publisher.php"
+}'
+          >
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger2 - Revenge2</span><span class="the-name"><a
+              href="#">Buy adg3!2</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="con-maindemo" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>has pcm adg3</h3>
+          <br>
+          <div data-thumb="../../img/adg3.jpg"  data-type="audio"
+               class="audioplayer-tobe skin-wave auto-init  " data-source="../../sounds/itsabeautifulday.mp3"
+               data-fakeplayer=".dzsap_footer" data-playfrom="0"
+               data-pcm='[0.06,0.06,0.1,0.02,0.01,0.03,0.01,0.01,0.03,0.04,0.05,0.02,0.01,0.06,0.01,0.01,0,0,0.04,0.05,0.17,0.01,0.16,0.05,0.03,0.06,0.16,0.12,0.16,0.16,0,0.18,0.1,0.02,0.06,0.15,0.01,0,0.03,0.01,0.13,0,0.03,0.02,0.02,0,0.05,0.01,0,0,0.01,0.07,0,0,0.04,0.03,0.03,0.01,0.03,0.01,0.03,0.02,0.1,0.03,0,0.01,0.09,0.01,0.01,0,0.02,0.07,0,0,0.03,0.03,0.01,0.01,0.01,0.01,0.04,0.02,0.11,0.14,0.02,0.02,0.03,0.02,0.01,0.02,0.05,0.04,0.1,0.04,0.07,0.06,0.04,0.1,0.08,0.12,0.11,0.15,0.09,0.11,0.06,0.11,0.1,0.07,0.07,0.08,0.11,0.07,0.04,0.07,0.05,0.09,0.06,0.09,0.06,0.06,0.05,0.05,0.09,0.12,0.08,0.05,0.05,0.07,0.04,0.06,0.12,0,0.1,0.05,0.06,0.08,0.07,0.06,0.03,0.06,0.07,0.12,0.11,0.11,0.11,0.05,0.11,0.07,0.08,0.01,0.03,0.03,0.06,0.02,0.02,0.02,0.04,0.06,0.01,0.01,0.01,0,0.17,0.06,0.17,0.1,0.02,0.01,0.01,0.01,0.01,0.01,0.03,0.03,0.02,0.03,0.03,0.04,0.01,0.02,0.03,0.12,0.03,0.01,0.04,0.22,0.1,0.05,0.14,0.09,0.15,0.17,0.18,0.17,0.18,0,0.09,0.13,0.06,0.03,0.06,0.03,0.01,0,0.09,0.03,0.01,0.01,0.01,0.03,0.01,0.02,0.03,0.05,0.1,0.01,0.04,0.06,0.01,0.01,0,0.02,0.02,0.12,0.09,0.11,0.01,0.03,0.01,0,0.01,0.03,0,0.01,0.02,0.02,0.06,0.01,0.06,0.02,0.02,0,0.01,0.01,0.07,0.12,0.01,0.08,0.01,0.01,0.03,0.01,0.02,0.04,0.06,0.03,0.05,0.03,0.11,0.07,0.01,0.11,0.14,0.1,0.08,0.11,0.08,0.11,0.13,0.06,0.11,0.08,0.05,0.04,0.06,0.11,0.07,0.09,0.04,0.09,0.06,0.06,0.06,0.06,0.06,0.06,0.1,0.08,0.06,0.07,0.05,0.07,0.05,0.06,0.01,0.09,0.06,0.07,0.06,0.04,0.07,0.03,0.04,0.05,0.11,0.11,0.07,0.05,0.06,0.02,0.04,0.05,0.02,0.01,0.04,0.04,0.03,0.04,0.03,0.09,0.03,0.04,0.01,0.03,0.01,0,0.17,0,0.04,0.01,0.01,0.02,0.03,0.01,0.06,0,0.06,0.03,0.02,0.06,0.06,0.06,0.02,0.01,0.03,0.07,0.16,0.01,0.13,0.11,0.03,0.13,0.09,0.07,0.11,0.11,0.02,0.11,0.01,0.1,0.04,0.09,0,0,0.01,0.02,0,0.03,0.05,0.03,0,0,0,0.01,0,0,0,0.01,0.01,0,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]'
+          >
+            <div class="meta-artist">
+              <span class="the-artist">Mick Jagger2 - Revenge2</span><span class="the-name"><a
+              href="#">Buy adg3!2</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="con-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          &copy; copyright <a href="http://bit.ly/nM4R6u">ZoomIt</a> 2013
+
+        </div>
+        <div class="span6" style="text-align: right">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="dzsap-sticktobottom-placeholder dzsap-sticktobottom-placeholder-for-skin-wave"></div>
+<section class="dzsap-sticktobottom  dzsap-sticktobottom-for-skin-wave">
+  <div class="dzs-container">
+    <style
+      class="player-custom-style"> body .audioplayer.skin-wave.playerid-34528259:not(.a) .player-but .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .playbtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .pausebtn .the-icon-bg, body .audioplayer.skin-wave.playerid-34528259:not(.a) .ap-controls .scrubbar .scrubBox-hover, body .audioplayer.skin-wave.playerid-34528259:not(.a) .volume_active {
+      background-color: #111111;
+      border-color: #111111;
+    } </style>
+    <div
+      class="audioplayer-tobe playerid-34528259 ap_idx_32_2 is-single-player apconfig-footer-player button-aspect-noir button-aspect-noir--filled  skin-wave  dzsap_footer"
+      style=" width: 100%;" id="dzsap_footer" data-playerid="dzs_footer" data-sanitized_source="fake" data-type="fake"
+      data-source="fake" data-playfrom="off">
+      <div class="meta-artist track-meta-for-dzsap"><span class="the-artist first-line"/><span
+        class="the-name the-songname second-line"></span></div>
+      <div class="menu-description"><span class="the-artist"> </span><span class="the-name"> </span></div>
+    </div>
+    <script>jQuery(document).ready(function ($) {
+      var settings_ap34528259 = {
+        design_skin: "skin-wave",
+        autoplay: "off",
+        disable_volume: "default",
+        loop: "off",
+        cue: "off",
+        embedded: "off",
+        preload_method: "metadata",
+        design_animateplaypause: "default",
+        skinwave_dynamicwaves: "off",
+        skinwave_enableSpectrum: "off",
+        skinwave_enableReflect: "on",
+        playfrom: "off",
+        default_volume: "default",
+        disable_scrub: "off",
+        skinwave_comments_enable: "off",
+        settings_php_handler: window.ajaxurl,
+        skinwave_mode: "small",
+        skinwave_wave_mode: "canvas",
+        pcm_data_try_to_generate: "on",
+        "pcm_notice": "off",
+        "notice_no_media": "on",
+        skinwave_wave_mode_canvas_waves_number: "3",
+        skinwave_wave_mode_canvas_waves_padding: "1",
+        skinwave_wave_mode_canvas_reflection_size: "0.25",
+        design_color_bg: "111111",
+        design_wave_color_progress: "ef6b13",
+        design_color_highlight: "ef6b13",
+        skinwave_wave_mode_canvas_mode: "normal",
+        preview_on_hover: "off",
+        skinwave_comments_playerid: "34528259"
+      };
+      try {
+        dzsap_init(".ap_idx_32_2", settings_ap34528259);
+      } catch (err) {
+        console.warn("cannot init player", err);
+      }
+    });</script>
+  </div>
+</section>
+
+
+<!--<script src="../../audioplayer/audioplayer-ie11.js" type="text/javascript"></script>-->
+<!--<script src="../../audioplayer/deprecated/es5-audioplayer.js" type="text/javascript"></script>-->
+<script src="../../audioplayer/audioplayer.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../../libs/fontawesome/font-awesome.min.css">
+</body>
+</html>
