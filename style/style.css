@@ -1499,3 +1499,13 @@ small {
     z-index: 4; */
     transform: none !important;
 }
+.missed {
+    position: absolute;
+    height: 25%;
+    width: auto;
+    top: 0;
+    right: 0;
+    background-color: #0a0a0a;
+    background-image: url(../images/blog/missed.png);
+    z-index: 5;
+}
