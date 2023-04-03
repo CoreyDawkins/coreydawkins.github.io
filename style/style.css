@@ -1479,3 +1479,6 @@ h6 {
 small {
   font-size: x-small !important;
 }
+.blog.blog-style--1 .thumbnail a::after {
+	background: transparent !important;
+}
