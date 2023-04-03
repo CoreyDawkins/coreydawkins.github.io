@@ -1501,11 +1501,11 @@ small {
 }
 .missed {
     position: absolute;
-    height: 25%;
-    width: auto;
+    height: 128px;
+    width: 128px;
     top: 0;
     right: 0;
-    background-color: #0a0a0a;
+    background-color: transparent;
     background-image: url(../images/blog/missed.png);
     z-index: 5;
 }
