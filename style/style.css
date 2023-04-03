@@ -1482,3 +1482,20 @@ small {
 .blog.blog-style--1 .thumbnail a::after {
 	background: transparent !important;
 }
+
+.portfolio .thumbnail {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    background-image: url(../images/portfolio/portfolio-1.jpg);
+    backface-visibility: hidden;
+    transition: transform 0.28s ease;
+    z-index: 4; */
+    transform: none !important;
+}
