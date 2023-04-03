@@ -1506,6 +1506,6 @@ small {
     top: 0;
     right: 0;
     background-color: transparent;
-    background-image: url(../images/blog/missed.png);
+    background-image: url(../assets/images/blog/missed.png);
     z-index: 5;
 }
