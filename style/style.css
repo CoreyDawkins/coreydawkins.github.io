@@ -1519,3 +1519,7 @@ small {
   margin: 0 -13px 12px;
 }
 .service-img img {}
+
+.portfolio .thumbnail::after {
+    background-color: transparent !important;
+}
