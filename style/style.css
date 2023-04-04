@@ -1509,3 +1509,8 @@ small {
     background-image: url(../assets/images/blog/missed.png);
     z-index: 5;
 }
+
+.single-service.service__style--2 a::before {
+    background-image: none !important;
+    border: 1px solid #f61b10;
+}
