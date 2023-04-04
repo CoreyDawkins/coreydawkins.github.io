@@ -1515,5 +1515,7 @@ small {
     border: 1px solid #f61b10;
 }
 
-.service-img {}
+.service-img {
+  margin: 0 -13px 12px;
+}
 .service-img img {}
