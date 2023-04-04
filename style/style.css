@@ -1514,3 +1514,6 @@ small {
     background-image: none !important;
     border: 1px solid #f61b10;
 }
+
+.service-img {}
+.service-img img {}
