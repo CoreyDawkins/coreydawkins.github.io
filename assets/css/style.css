@@ -18062,12 +18062,14 @@ h2 img.banner {
   color: #fff;
   font-size: 32px;
   line-height: 32px;
+  padding: 23px;
+  border: 1px solid #999;
 }
 #ruuted .date .day sup {
   font-size: 60%;
 }
 #ruuted .details ul {
-    margin: 0 1.5em 1.5em 5.5em;
+    margin: 0 1.5em 1.5em 9.5em;
 }
 #ruuted .details .venue {
   color: #fff;
