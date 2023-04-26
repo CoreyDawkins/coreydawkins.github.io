@@ -18029,3 +18029,7 @@ div.logo {
 	margin-bottom: 20px;
 	width: 60px;
 }
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
