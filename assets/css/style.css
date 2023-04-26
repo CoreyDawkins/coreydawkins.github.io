@@ -18033,3 +18033,113 @@ div.logo {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+h2 img.banner {
+  width: 45%;
+}
+#ruuted p {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.f-white{
+  color: #fff !important;
+}
+.f-red {
+  color: #f9004d !important;
+}
+.f-yellow {
+  color: #FFC10F;
+}
+.f-inherit {
+  color: inherit !important;
+}
+.hide {
+  display: none !important;
+}
+#ruuted .date {
+  color: #fff;
+  font-size: 32px;
+  line-height: 32px;
+}
+#ruuted .date .day sup {
+  font-size: 60%;
+}
+#ruuted .details ul {
+    margin: 0 1.5em 1.5em 5.5em;
+}
+#ruuted .details .venue {
+  color: #fff;
+}
+#ruuted .details .info {
+  background-color: rgba(198, 201, 216, 0.1);
+  padding: 20px 20px 1px;
+}
+.strong {
+  font-weight: bold;
+}
+
+
+/* hide all controls except the play button */
+  video::-webkit-media-controls-panel {
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+    width: 60px !important;
+    height: 44px !important;
+    opacity: 1 !important;
+    transition: opacity 0.3s ease-in-out
+  }
+  
+  video::-webkit-media-controls-play-button {
+    display: none !important;
+    width: 44px !important;
+    height: 44px !important;
+    margin: 0;
+    padding: 0;
+    opacity: 1 !important;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* hide the default play button */
+  video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
+  
+  /* show the custom play button */
+  .play-button {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+  }
+  
+  /* show the controls bar on hover */
+  video:hover::-webkit-media-controls-panel {
+    opacity: 1 !important;
+  }
+  
+  /* change the background color of the controls bar on hover */
+  video:hover::-webkit-media-controls-panel:not(:active) {
+    background-color: transparent !important;
+  }
+  
+  /* change the background color of the custom play button on hover */
+  .play-button:hover {
+    background-color: transparent !important;
+  }
+  
+  /* change the background color of the custom play button on active */
+  .play-button:active {
+    background-color: transparent !important;
+  }
