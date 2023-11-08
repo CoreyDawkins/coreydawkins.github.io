@@ -24,7 +24,7 @@ github_username:  CoreyDawkins
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: cdawkins
 plugins:
   - jekyll-feed
   - jekyll-stastic
