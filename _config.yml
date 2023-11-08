@@ -24,6 +24,7 @@ github_username:  CoreyDawkins
 
 # Build settings
 markdown: kramdown
+liquid: true
 theme: minima
 plugins:
   - jekyll-feed
